@@ -1,34 +1,63 @@
 -module(ggt).
 -compile(export_all).
--import("ggt.hrl").
+-include("ggt.hrl").
 
-init(Verzzeit, Termzeit, Startnr, Gruppe, Team, Namensdienst, Koordinator, Starternummer) -> 
-    loop(#state{namensdienst = Namesdienst,koordinator = Koordinator, name = {Gruppe, Team, Startnummer, Starternummer}, vzeit = Vzeit, tzeit=Tzeit}).
-    
-loop(S= #state(Left = left, Right = right, Mi = mi)) -> 
+%% %%%%%%%%%%%
+% TODO:
+% abstimmung in loop inplementen
+%% %%%%%%%%%%%
+
+
+init(Vzeit, Tzeit, Startnr, Gruppe, Team, Namensdienst, Koordinator, Starternr) -> 
+    Name=get_name(Gruppe, Team, Startnr, Starternr),
+    file:write_file(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]),"",[write]),
+    register(Name, self()),
+    Namensdienst ! {self(),{rebind,Name,node()}},
+    log(["Nachricht an Namensdienst gesendet"],Name),
     receive
-        {setneighbors,LeftN,RightN} ->
-            loop(S#state(left = LeftN, right = RightN));
+        ok -> log(["Bind done"],Name)
+    end,
+    Koordinator ! {hello, Name},
+    log(["warte auf Nachbarmessage vom Koordinator"], Name),
+    receive
+        {setneighbors,Left,Right} ->    
+            log(["Neighbors set, starting loop"], Name),
+            loop(#state{left=Left, right=Right, namensdienst = Namensdienst,koordinator = Koordinator, name = Name, vzeit = Vzeit, tzeit=Tzeit});
+        kill -> exit(normal)
+    end.
+    
+loop(S= #state{mi = Mi, name = Name}) -> 
+    receive
         {setpm,MiNeu} ->
-            loop(S#state(mi = MiNeu));
+            %% eventuell auslagern in eigene Loop, da nur zum Starten gebraucht
+            log(["Starting with MI: ", MiNeu], Name),
+            loop(S#state{mi = MiNeu});
         {sendy,Y} ->
             NewState = calc_ggt(S,Y),
             loop(NewState);
-        {abstimmung,Initiator} ->
+        {abstimmung,Initiator} ->        
             %% mal gucken
+            loop(S);
         {tellmi,From} ->
+            log(["Tellmi to: ", From],Name),
             From ! Mi,
             loop(S);
-        {kill} -> exit(normal);
+        kill -> exit(normal)
     end.  
     
     
-calc_ggt(S = #state(VZeit = vzeit, Mi = mi, Left = left, Right = right, Koordiantor = koordinator, Name = name), Y) when Y < Mi -> 
+calc_ggt(S = #state{vzeit = Vzeit, mi = Mi, left = Left, right = Right, koordinator = Koordinator, name = Name}, Y) when Y < Mi-> 
     NewMi = ((Mi-1) rem Y) + 1,
+    log(["Caculating new MI: ",NewMi," Y: ",Y],Name),
+    timer:sleep(Vzeit),
     Left ! {sendy, NewMi},
     Right ! {sendy, NewMi},
-    Koordinator ! {briefmi, get_name}
-calc_ggt(S,Y) -> S.
+    Koordinator ! {briefmi, Name},
+    S#state{mi = NewMi};
+calc_ggt(S,_) -> S.
 
-get_name({A,B,C,D}) -> lists:concat([A,B,C,D]).
-    
+get_name(A,B,C,D) -> erlang:list_to_atom(lists:concat([p,A,B,C,D])).
+   
+log(Nachricht,Name) ->
+    NewNachricht = lists:concat([werkzeug:timeMilliSecond(),"|",Name,": ",lists:concat(Nachricht),io_lib:nl()]),
+    werkzeug:logging(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
