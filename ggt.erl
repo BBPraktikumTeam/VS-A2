@@ -5,7 +5,18 @@
 %% %%%%%%%%%%%
 % TODO:
 % abstimmung in loop inplementen
+% Timer für Terminierung
+% loop für weiteres empfangen
+% GGT immer killbar!
+% Mehrere Berechnungen mit gleichem Ring
 %% %%%%%%%%%%%
+
+%% Mögliche Fehler des Algorithmus
+% Stop nach Start: da nur Prozesse starten die nur Nachbarn mit kleineren Zahlen haben -> Stillstand
+% Zu frühes Ende:  da Probleme bei der Abstimmung entstehen können -> Abbruch zu früh -> falscher ggt
+
+% Namensdienst auf lab22
+% Kommunikation über Name, Node
 
 
 init(Vzeit, Tzeit, Startnr, Gruppe, Team, Namensdienst, Koordinator, Starternr) -> 
@@ -33,10 +44,13 @@ loop(S= #state{mi = Mi, name = Name}) ->
             log(["Starting with MI: ", MiNeu], Name),
             loop(S#state{mi = MiNeu});
         {sendy,Y} ->
+        % timer killen
+        % timer starten -> spawn timer
             NewState = calc_ggt(S,Y),
             loop(NewState);
         {abstimmung,Initiator} ->        
             %% mal gucken
+            % Initiator wichtig. Wenn man selber startet, dann self() ansonsten durchreichen. Wenn Nachricht ankommt mit meinem Namen, dann Term senden -> Also abstimmung erfolgreich
             loop(S);
         {tellmi,From} ->
             log(["Tellmi to: ", From],Name),
@@ -56,8 +70,9 @@ calc_ggt(S = #state{vzeit = Vzeit, mi = Mi, left = Left, right = Right, koordina
     S#state{mi = NewMi};
 calc_ggt(S,_) -> S.
 
-get_name(A,B,C,D) -> erlang:list_to_atom(lists:concat([p,A,B,C,D])).
+get_name(A,B,C,D) -> erlang:list_to_atom(lists:concat([A,B,C,D])).
    
 log(Nachricht,Name) ->
     NewNachricht = lists:concat([werkzeug:timeMilliSecond(),"|",Name,": ",lists:concat(Nachricht),io_lib:nl()]),
     werkzeug:logging(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
+    
