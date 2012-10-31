@@ -1,0 +1,1 @@
+-record(state,{namensdienst,koordinator, name, vzeit, tzeit, left, right, mi}).

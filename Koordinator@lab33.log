@@ -1,0 +1,497 @@
+Koordinator-ko@lab33.cpt.haw-hamburg.de-KLC Startzeit: 16.06 11:23:47,825| mit PID <0.39.0>
+koordinator.cfg gelesen...
+Nameservice gebunden...
+lokal registriert...
+beim Namensdienst registriert.
+getsteeringval: <6584.39.0> (0).
+hello: 488312 (3).
+hello: 488112 (2).
+hello: 488212 (1).
+getsteeringval: <6584.39.0> (0).
+hello: 488111 (3).
+hello: 488211 (2).
+hello: 488311 (1).
+getsteeringval: <6584.39.0> (0).
+hello: 488310 (3).
+hello: 488210 (2).
+hello: 488110 (1).
+getsteeringval: <6584.39.0> (0).
+hello: 48839 (3).
+hello: 48829 (2).
+hello: 48819 (1).
+getsteeringval: <6597.39.0> (0).
+hello: 488116 (3).
+hello: 488216 (2).
+hello: 488316 (1).
+getsteeringval: <6597.39.0> (0).
+hello: 488315 (3).
+hello: 488215 (2).
+hello: 488115 (1).
+getsteeringval: <6597.39.0> (0).
+hello: 488314 (3).
+hello: 488214 (2).
+hello: 488114 (1).
+getsteeringval: <6597.39.0> (0).
+hello: 488313 (3).
+hello: 488213 (2).
+hello: 488113 (1).
+getsteeringval: <6518.39.0> (0).
+hello: 48834 (3).
+hello: 48824 (2).
+hello: 48814 (1).
+getsteeringval: <6518.39.0> (0).
+hello: 48823 (3).
+hello: 48813 (1).
+hello: 48833 (2).
+getsteeringval: <6518.39.0> (0).
+hello: 48832 (3).
+hello: 48822 (2).
+hello: 48812 (1).
+getsteeringval: <6518.39.0> (0).
+hello: 48821 (3).
+hello: 48811 (2).
+hello: 48831 (1).
+getsteeringval: <6517.39.0> (0).
+hello: 48838 (3).
+hello: 48828 (2).
+hello: 48818 (1).
+getsteeringval: <6517.39.0> (0).
+hello: 48837 (3).
+hello: 48827 (2).
+hello: 48817 (1).
+getsteeringval: <6517.39.0> (0).
+hello: 48836 (3).
+hello: 48826 (2).
+hello: 48816 (1).
+getsteeringval: <6517.39.0> (0).
+hello: 48835 (3).
+hello: 48825 (2).
+hello: 48815 (1).
+Anmeldefrist für ggT-Prozesse abgelaufen. Vermisst werden aktuell 0 ggT-Prozesse.
+ggT-Prozess 488312 (488312) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488112 (488112) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488212 (488212) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488111 (488111) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488211 (488211) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488311 (488311) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488310 (488310) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488210 (488210) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488110 (488110) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48839 (48839) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48829 (48829) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48819 (48819) auf ggt1@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488116 (488116) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488216 (488216) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488316 (488316) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488315 (488315) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488215 (488215) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488115 (488115) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488314 (488314) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488214 (488214) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488114 (488114) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488313 (488313) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488213 (488213) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 488113 (488113) auf ggt2@lab33.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48834 (48834) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48824 (48824) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48814 (48814) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48823 (48823) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48833 (48833) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48813 (48813) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48832 (48832) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48822 (48822) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48812 (48812) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48821 (48821) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48811 (48811) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48831 (48831) auf ggt3@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48838 (48838) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48828 (48828) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48818 (48818) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48837 (48837) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48827 (48827) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48817 (48817) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48836 (48836) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48826 (48826) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48816 (48816) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48835 (48835) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48825 (48825) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+ggT-Prozess 48815 (48815) auf ggt4@lab32.cpt.haw-hamburg.de gebunden.
+Alle ggT-Prozesse gebunden.
+ggT-Prozess 48812 (ggt3@lab32.cpt.haw-hamburg.de) über linken (48836) und rechten (48818) Nachbarn informiert.
+ggT-Prozess 48837 (ggt4@lab32.cpt.haw-hamburg.de) über linken (488111) und rechten (488215) Nachbarn informiert.
+ggT-Prozess 488215 (ggt2@lab33.cpt.haw-hamburg.de) über linken (48837) und rechten (488214) Nachbarn informiert.
+ggT-Prozess 488111 (ggt1@lab33.cpt.haw-hamburg.de) über linken (488311) und rechten (48837) Nachbarn informiert.
+ggT-Prozess 488311 (ggt1@lab33.cpt.haw-hamburg.de) über linken (488116) und rechten (488111) Nachbarn informiert.
+ggT-Prozess 48824 (ggt3@lab32.cpt.haw-hamburg.de) über linken (48825) und rechten (488116) Nachbarn informiert.
+ggT-Prozess 488116 (ggt2@lab33.cpt.haw-hamburg.de) über linken (48824) und rechten (488311) Nachbarn informiert.
+ggT-Prozess 48828 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48818) und rechten (48825) Nachbarn informiert.
+ggT-Prozess 48825 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48828) und rechten (48824) Nachbarn informiert.
+ggT-Prozess 48818 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48812) und rechten (48828) Nachbarn informiert.
+ggT-Prozess 48821 (ggt3@lab32.cpt.haw-hamburg.de) über linken (48833) und rechten (48836) Nachbarn informiert.
+ggT-Prozess 48836 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48821) und rechten (48812) Nachbarn informiert.
+ggT-Prozess 48833 (ggt3@lab32.cpt.haw-hamburg.de) über linken (488211) und rechten (48821) Nachbarn informiert.
+Alle ggT-Prozesse über Nachbarn informiert.
+Ring wird/wurde erstellt, Koordinator geht in den Zustand 'Bereit für Berechnung'.
+ggT-Prozess 488211 (ggt1@lab33.cpt.haw-hamburg.de) über linken (488313) und rechten (48833) Nachbarn informiert.
+ggT-Prozess 48831 (ggt3@lab32.cpt.haw-hamburg.de) über linken (48835) und rechten (488313) Nachbarn informiert.
+ggT-Prozess 488313 (ggt2@lab33.cpt.haw-hamburg.de) über linken (48831) und rechten (488211) Nachbarn informiert.
+ggT-Prozess 48835 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48834) und rechten (48831) Nachbarn informiert.
+ggT-Prozess 488316 (ggt2@lab33.cpt.haw-hamburg.de) über linken (48813) und rechten (48834) Nachbarn informiert.
+ggT-Prozess 48834 (ggt3@lab32.cpt.haw-hamburg.de) über linken (488316) und rechten (48835) Nachbarn informiert.
+ggT-Prozess 48813 (ggt3@lab32.cpt.haw-hamburg.de) über linken (48826) und rechten (488316) Nachbarn informiert.
+ggT-Prozess 48822 (ggt3@lab32.cpt.haw-hamburg.de) über linken (488114) und rechten (48826) Nachbarn informiert.
+ggT-Prozess 48826 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48822) und rechten (48813) Nachbarn informiert.
+ggT-Prozess 48823 (ggt3@lab32.cpt.haw-hamburg.de) über linken (488310) und rechten (488114) Nachbarn informiert.
+ggT-Prozess 488114 (ggt2@lab33.cpt.haw-hamburg.de) über linken (48823) und rechten (48822) Nachbarn informiert.
+ggT-Prozess 488310 (ggt1@lab33.cpt.haw-hamburg.de) über linken (48839) und rechten (48823) Nachbarn informiert.
+ggT-Prozess 48839 (ggt1@lab33.cpt.haw-hamburg.de) über linken (48811) und rechten (488310) Nachbarn informiert.
+ggT-Prozess 488214 (ggt2@lab33.cpt.haw-hamburg.de) über linken (488215) und rechten (48827) Nachbarn informiert.
+ggT-Prozess 48811 (ggt3@lab32.cpt.haw-hamburg.de) über linken (488210) und rechten (48839) Nachbarn informiert.
+ggT-Prozess 48827 (ggt4@lab32.cpt.haw-hamburg.de) über linken (488214) und rechten (48817) Nachbarn informiert.
+ggT-Prozess 48817 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48827) und rechten (48816) Nachbarn informiert.
+ggT-Prozess 488210 (ggt1@lab33.cpt.haw-hamburg.de) über linken (48814) und rechten (48811) Nachbarn informiert.
+ggT-Prozess 48814 (ggt3@lab32.cpt.haw-hamburg.de) über linken (48829) und rechten (488210) Nachbarn informiert.
+ggT-Prozess 48829 (ggt1@lab33.cpt.haw-hamburg.de) über linken (488213) und rechten (48814) Nachbarn informiert.
+ggT-Prozess 488213 (ggt2@lab33.cpt.haw-hamburg.de) über linken (488314) und rechten (48829) Nachbarn informiert.
+ggT-Prozess 488314 (ggt2@lab33.cpt.haw-hamburg.de) über linken (488312) und rechten (488213) Nachbarn informiert.
+ggT-Prozess 488312 (ggt1@lab33.cpt.haw-hamburg.de) über linken (48832) und rechten (488314) Nachbarn informiert.
+ggT-Prozess 488113 (ggt2@lab33.cpt.haw-hamburg.de) über linken (488115) und rechten (48832) Nachbarn informiert.
+ggT-Prozess 48832 (ggt3@lab32.cpt.haw-hamburg.de) über linken (488113) und rechten (488312) Nachbarn informiert.
+ggT-Prozess 488216 (ggt2@lab33.cpt.haw-hamburg.de) über linken (488212) und rechten (488115) Nachbarn informiert.
+ggT-Prozess 488115 (ggt2@lab33.cpt.haw-hamburg.de) über linken (488216) und rechten (488113) Nachbarn informiert.
+ggT-Prozess 488212 (ggt1@lab33.cpt.haw-hamburg.de) über linken (48838) und rechten (488216) Nachbarn informiert.
+ggT-Prozess 48838 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48815) und rechten (488212) Nachbarn informiert.
+ggT-Prozess 48815 (ggt4@lab32.cpt.haw-hamburg.de) über linken (488315) und rechten (48838) Nachbarn informiert.
+ggT-Prozess 488315 (ggt2@lab33.cpt.haw-hamburg.de) über linken (488110) und rechten (48815) Nachbarn informiert.
+ggT-Prozess 48819 (ggt1@lab33.cpt.haw-hamburg.de) über linken (488112) und rechten (488110) Nachbarn informiert.
+ggT-Prozess 488110 (ggt1@lab33.cpt.haw-hamburg.de) über linken (48819) und rechten (488315) Nachbarn informiert.
+ggT-Prozess 48816 (ggt4@lab32.cpt.haw-hamburg.de) über linken (48817) und rechten (488112) Nachbarn informiert.
+ggT-Prozess 488112 (ggt1@lab33.cpt.haw-hamburg.de) über linken (48816) und rechten (48819) Nachbarn informiert.
+488111 meldet Terminierung mit ggT 42 um 16.06 11:27:09,840| (16.06 11:27:09,841|).
+488215 meldet Terminierung mit ggT 42 um 16.06 11:27:09,035| (16.06 11:27:09,038|).
+488116 meldet Terminierung mit ggT 42 um 16.06 11:27:09,161| (16.06 11:27:09,162|).
+488311 meldet Terminierung mit ggT 42 um 16.06 11:27:09,244| (16.06 11:27:09,246|).
+488114 meldet Terminierung mit ggT 42 um 16.06 11:27:09,328| (16.06 11:27:09,359|).
+48837 meldet Terminierung mit ggT 42 um 16.06 11:27:09,304| (16.06 11:27:09,362|).
+488212 meldet Terminierung mit ggT 42 um 16.06 11:27:09,368| (16.06 11:27:09,372|).
+488115 meldet Terminierung mit ggT 42 um 16.06 11:27:09,417| (16.06 11:27:09,450|).
+488216 meldet Terminierung mit ggT 42 um 16.06 11:27:09,418| (16.06 11:27:09,450|).
+488113 meldet Terminierung mit ggT 42 um 16.06 11:27:09,440| (16.06 11:27:09,450|).
+48822 meldet Terminierung mit ggT 42 um 16.06 11:27:09,408| (16.06 11:27:09,484|).
+48832 meldet Terminierung mit ggT 42 um 16.06 11:27:09,503| (16.06 11:27:09,560|).
+488315 meldet Terminierung mit ggT 42 um 16.06 11:27:09,592| (16.06 11:27:09,595|).
+488316 meldet Terminierung mit ggT 42 um 16.06 11:27:09,632| (16.06 11:27:09,686|).
+488314 meldet Terminierung mit ggT 42 um 16.06 11:27:09,652| (16.06 11:27:09,686|).
+488213 meldet Terminierung mit ggT 42 um 16.06 11:27:09,655| (16.06 11:27:09,686|).
+488312 meldet Terminierung mit ggT 42 um 16.06 11:27:09,613| (16.06 11:27:09,686|).
+48813 meldet Terminierung mit ggT 42 um 16.06 11:27:09,557| (16.06 11:27:09,691|).
+48834 meldet Terminierung mit ggT 42 um 16.06 11:27:09,601| (16.06 11:27:09,691|).
+48826 meldet Terminierung mit ggT 42 um 16.06 11:27:09,550| (16.06 11:27:09,691|).
+48831 meldet Terminierung mit ggT 42 um 16.06 11:27:09,629| (16.06 11:27:09,691|).
+48838 meldet Terminierung mit ggT 42 um 16.06 11:27:09,596| (16.06 11:27:09,691|).
+48835 meldet Terminierung mit ggT 42 um 16.06 11:27:09,628| (16.06 11:27:09,691|).
+488313 meldet Terminierung mit ggT 42 um 16.06 11:27:09,687| (16.06 11:27:09,692|).
+48829 meldet Terminierung mit ggT 42 um 16.06 11:27:09,725| (16.06 11:27:09,754|).
+48821 meldet Terminierung mit ggT 42 um 16.06 11:27:09,720| (16.06 11:27:09,784|).
+48814 meldet Terminierung mit ggT 42 um 16.06 11:27:09,707| (16.06 11:27:09,784|).
+488211 meldet Terminierung mit ggT 42 um 16.06 11:27:09,759| (16.06 11:27:09,786|).
+488210 meldet Terminierung mit ggT 42 um 16.06 11:27:09,794| (16.06 11:27:09,828|).
+48812 meldet Terminierung mit ggT 42 um 16.06 11:27:09,750| (16.06 11:27:09,829|).
+48811 meldet Terminierung mit ggT 42 um 16.06 11:27:09,761| (16.06 11:27:09,829|).
+48833 meldet Terminierung mit ggT 42 um 16.06 11:27:09,765| (16.06 11:27:09,829|).
+48818 meldet Terminierung mit ggT 42 um 16.06 11:27:09,777| (16.06 11:27:09,863|).
+48828 meldet Terminierung mit ggT 42 um 16.06 11:27:09,777| (16.06 11:27:09,863|).
+48836 meldet Terminierung mit ggT 42 um 16.06 11:27:09,777| (16.06 11:27:09,863|).
+48825 meldet Terminierung mit ggT 42 um 16.06 11:27:09,780| (16.06 11:27:09,863|).
+48824 meldet Terminierung mit ggT 42 um 16.06 11:27:09,816| (16.06 11:27:09,894|).
+48823 meldet Terminierung mit ggT 42 um 16.06 11:27:09,833| (16.06 11:27:09,894|).
+48839 meldet Terminierung mit ggT 42 um 16.06 11:27:09,863| (16.06 11:27:09,894|).
+488310 meldet Terminierung mit ggT 42 um 16.06 11:27:09,864| (16.06 11:27:09,894|).
+488112 meldet Terminierung mit ggT 42 um 16.06 11:27:09,169| (16.06 11:27:09,210|).
+488214 meldet Terminierung mit ggT 42 um 16.06 11:27:09,019| (16.06 11:27:09,058|).
+48819 meldet Terminierung mit ggT 42 um 16.06 11:27:09,169| (16.06 11:27:09,210|).
+488110 meldet Terminierung mit ggT 42 um 16.06 11:27:09,170| (16.06 11:27:09,210|).
+48817 meldet Terminierung mit ggT 42 um 16.06 11:27:09,075| (16.06 11:27:09,213|).
+48827 meldet Terminierung mit ggT 42 um 16.06 11:27:09,074| (16.06 11:27:09,212|).
+48815 meldet Terminierung mit ggT 42 um 16.06 11:27:09,193| (16.06 11:27:09,294|).
+48816 meldet Terminierung mit ggT 42 um 16.06 11:27:09,077| (16.06 11:27:09,213|).
+Beginne eine neue ggT-Berechnung mit Ziel 16.
+ggT-Prozess 488312 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 1147134384 gesendet.
+ggT-Prozess 488112 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 861374800 gesendet.
+ggT-Prozess 488212 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 1904400 gesendet.
+ggT-Prozess 488211 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 25392 gesendet.
+ggT-Prozess 488111 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 25168 gesendet.
+ggT-Prozess 488311 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 96059586480 gesendet.
+ggT-Prozess 488310 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 671745360 gesendet.
+ggT-Prozess 488210 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 4425200 gesendet.
+ggT-Prozess 488110 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 23280400 gesendet.
+ggT-Prozess 48839 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 321843600 gesendet.
+Allen ausgewählten ggT-Prozessen ein y gesendet.
+ggT-Prozess 488211 (ggt1@lab33.cpt.haw-hamburg.de) startendes y 12315331600 gesendet.
+ggT-Prozess 48825 (ggt4@lab32.cpt.haw-hamburg.de) startendes y 34320 gesendet.
+ggT-Prozess 48837 (ggt4@lab32.cpt.haw-hamburg.de) startendes y 11233200 gesendet.
+ggT-Prozess 48829 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 193865710896 gesendet.
+ggT-Prozess 48811 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 11587216 gesendet.
+ggT-Prozess 48819 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 2793648 gesendet.
+ggT-Prozess 488116 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 27708560 gesendet.
+ggT-Prozess 48831 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 64069200 gesendet.
+ggT-Prozess 488216 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 2518960 gesendet.
+ggT-Prozess 48833 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 9217296 gesendet.
+ggT-Prozess 488316 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 43663448400 gesendet.
+ggT-Prozess 488316 (ggt2@lab33.cpt.haw-hamburg.de) startendes y 279312 gesendet.
+ggT-Prozess 488315 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 13968240 gesendet.
+ggT-Prozess 488112 (ggt1@lab33.cpt.haw-hamburg.de) startendes y 753169040 gesendet.
+ggT-Prozess 488215 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 34761648 gesendet.
+ggT-Prozess 48827 (ggt4@lab32.cpt.haw-hamburg.de) startendes y 73616400 gesendet.
+ggT-Prozess 488115 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 37784400 gesendet.
+ggT-Prozess 488314 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 304794160 gesendet.
+ggT-Prozess 488214 (ggt2@lab33.cpt.haw-hamburg.de) startendes y 368 gesendet.
+ggT-Prozess 488214 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 119267280 gesendet.
+ggT-Prozess 48813 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 253968 gesendet.
+ggT-Prozess 488114 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 500240 gesendet.
+ggT-Prozess 488116 (ggt2@lab33.cpt.haw-hamburg.de) startendes y 559728 gesendet.
+ggT-Prozess 488313 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 789360 gesendet.
+Allen ggT-Prozessen ein initiales Mi gesendet.
+ggT-Prozess 488213 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 240944 gesendet.
+ggT-Prozess 48815 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 37626160 gesendet.
+ggT-Prozess 488113 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 63092391120 gesendet.
+ggT-Prozess 48825 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 43414800 gesendet.
+ggT-Prozess 48834 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 92544400 gesendet.
+ggT-Prozess 48835 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 192400 gesendet.
+ggT-Prozess 48824 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 16117200 gesendet.
+ggT-Prozess 48816 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 157872 gesendet.
+ggT-Prozess 48814 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 400752 gesendet.
+ggT-Prozess 48826 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 9680 gesendet.
+ggT-Prozess 48823 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 11233200 gesendet.
+ggT-Prozess 48836 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 8179600 gesendet.
+ggT-Prozess 48833 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 7965360 gesendet.
+ggT-Prozess 48817 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 197136 gesendet.
+ggT-Prozess 48813 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 73616400 gesendet.
+ggT-Prozess 48827 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 323109518160 gesendet.
+ggT-Prozess 48832 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 1801056400 gesendet.
+ggT-Prozess 48837 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 3831338160 gesendet.
+ggT-Prozess 48822 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 204240 gesendet.
+ggT-Prozess 48818 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 3420560 gesendet.
+ggT-Prozess 48812 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 76810800 gesendet.
+ggT-Prozess 48828 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 264626960 gesendet.
+ggT-Prozess 48811 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 48 gesendet.
+ggT-Prozess 48821 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 910800 gesendet.
+ggT-Prozess 48838 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 1650480 gesendet.
+ggT-Prozess 48831 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 596336400 gesendet.
+48827 meldet neues Mi 7138560 um 16.06 11:29:54,290| (16.06 11:29:54,350|).
+48831 meldet neues Mi 19713600 um 16.06 11:29:54,291| (16.06 11:29:54,353|).
+48813 meldet neues Mi 219648 um 16.06 11:29:54,292| (16.06 11:29:54,354|).
+488214 meldet neues Mi 320 um 16.06 11:29:54,346| (16.06 11:29:54,354|).
+488316 meldet neues Mi 279312 um 16.06 11:29:54,347| (16.06 11:29:54,354|).
+488116 meldet neues Mi 281888 um 16.06 11:29:54,348| (16.06 11:29:54,354|).
+488112 meldet neues Mi 108205760 um 16.06 11:29:54,346| (16.06 11:29:54,371|).
+48825 meldet neues Mi 34320 um 16.06 11:29:54,294| (16.06 11:29:54,371|).
+48837 meldet neues Mi 816960 um 16.06 11:29:54,293| (16.06 11:29:54,371|).
+48834 meldet neues Mi 92128 um 16.06 11:29:57,330| (16.06 11:29:57,387|).
+48824 meldet neues Mi 21120 um 16.06 11:29:57,332| (16.06 11:29:57,387|).
+488316 meldet neues Mi 59664 um 16.06 11:29:57,392| (16.06 11:29:57,394|).
+488215 meldet neues Mi 48 um 16.06 11:29:57,393| (16.06 11:29:57,396|).
+48827 meldet neues Mi 320 um 16.06 11:29:57,332| (16.06 11:29:57,396|).
+488311 meldet neues Mi 48944 um 16.06 11:29:57,410| (16.06 11:29:57,444|).
+48828 meldet neues Mi 19760 um 16.06 11:29:57,333| (16.06 11:29:57,444|).
+48813 meldet neues Mi 40656 um 16.06 11:30:00,370| (16.06 11:30:00,426|).
+48834 meldet neues Mi 32464 um 16.06 11:30:00,370| (16.06 11:30:00,426|).
+48825 meldet neues Mi 14560 um 16.06 11:30:00,370| (16.06 11:30:00,427|).
+48818 meldet neues Mi 2080 um 16.06 11:30:00,372| (16.06 11:30:00,427|).
+48817 meldet neues Mi 16 um 16.06 11:30:00,373| (16.06 11:30:00,431|).
+488214 meldet neues Mi 32 um 16.06 11:30:00,433| (16.06 11:30:00,542|).
+488116 meldet neues Mi 7328 um 16.06 11:30:00,435| (16.06 11:30:00,542|).
+48835 meldet neues Mi 8144 um 16.06 11:30:00,386| (16.06 11:30:00,542|).
+48837 meldet neues Mi 48 um 16.06 11:30:00,384| (16.06 11:30:00,542|).
+48824 meldet neues Mi 6560 um 16.06 11:30:03,411| (16.06 11:30:03,467|).
+48812 meldet neues Mi 560 um 16.06 11:30:03,410| (16.06 11:30:03,467|).
+48831 meldet neues Mi 5120 um 16.06 11:30:03,412| (16.06 11:30:03,467|).
+488215 meldet neues Mi 16 um 16.06 11:30:03,466| (16.06 11:30:03,469|).
+48827 meldet neues Mi 16 um 16.06 11:30:03,410| (16.06 11:30:03,470|).
+488311 meldet neues Mi 4976 um 16.06 11:30:03,485| (16.06 11:30:03,584|).
+488111 meldet neues Mi 16 um 16.06 11:30:03,485| (16.06 11:30:03,584|).
+48834 meldet neues Mi 8032 um 16.06 11:30:03,412| (16.06 11:30:03,585|).
+48816 meldet neues Mi 16 um 16.06 11:30:03,420| (16.06 11:30:03,585|).
+48828 meldet neues Mi 5200 um 16.06 11:30:03,423| (16.06 11:30:03,585|).
+48836 meldet neues Mi 240 um 16.06 11:30:06,451| (16.06 11:30:06,505|).
+48835 meldet neues Mi 3024 um 16.06 11:30:06,452| (16.06 11:30:06,508|).
+48828 meldet neues Mi 1040 um 16.06 11:30:06,453| (16.06 11:30:06,508|).
+48818 meldet neues Mi 400 um 16.06 11:30:06,453| (16.06 11:30:06,508|).
+48825 meldet neues Mi 1440 um 16.06 11:30:06,453| (16.06 11:30:06,508|).
+488214 meldet neues Mi 16 um 16.06 11:30:06,511| (16.06 11:30:06,512|).
+488313 meldet neues Mi 880 um 16.06 11:30:06,511| (16.06 11:30:06,514|).
+488116 meldet neues Mi 768 um 16.06 11:30:06,514| (16.06 11:30:06,516|).
+48837 meldet neues Mi 16 um 16.06 11:30:06,465| (16.06 11:30:06,517|).
+488112 meldet neues Mi 16 um 16.06 11:30:06,534| (16.06 11:30:06,553|).
+488311 meldet neues Mi 16 um 16.06 11:30:06,516| (16.06 11:30:06,521|).
+48834 meldet neues Mi 1984 um 16.06 11:30:09,491| (16.06 11:30:09,556|).
+488116 meldet neues Mi 16 um 16.06 11:30:09,544| (16.06 11:30:09,557|).
+48831 meldet neues Mi 2096 um 16.06 11:30:09,494| (16.06 11:30:09,560|).
+48812 meldet neues Mi 80 um 16.06 11:30:09,495| (16.06 11:30:09,560|).
+48824 meldet neues Mi 800 um 16.06 11:30:09,495| (16.06 11:30:09,560|).
+48821 meldet neues Mi 240 um 16.06 11:30:09,496| (16.06 11:30:09,561|).
+48825 meldet neues Mi 400 um 16.06 11:30:09,490| (16.06 11:30:09,561|).
+488211 meldet neues Mi 752 um 16.06 11:30:09,546| (16.06 11:30:09,561|).
+48819 meldet neues Mi 16 um 16.06 11:30:09,550| (16.06 11:30:09,561|).
+488313 meldet neues Mi 128 um 16.06 11:30:12,566| (16.06 11:30:12,567|).
+48835 meldet neues Mi 1040 um 16.06 11:30:12,520| (16.06 11:30:12,585|).
+48818 meldet neues Mi 80 um 16.06 11:30:12,520| (16.06 11:30:12,585|).
+48836 meldet neues Mi 80 um 16.06 11:30:12,521| (16.06 11:30:12,585|).
+48833 meldet neues Mi 240 um 16.06 11:30:12,517| (16.06 11:30:12,797|).
+48831 meldet neues Mi 336 um 16.06 11:30:12,518| (16.06 11:30:12,797|).
+48824 meldet neues Mi 32 um 16.06 11:30:12,519| (16.06 11:30:12,797|).
+488110 meldet neues Mi 16 um 16.06 11:30:12,568| (16.06 11:30:12,798|).
+488211 meldet neues Mi 112 um 16.06 11:30:15,606| (16.06 11:30:15,607|).
+488315 meldet neues Mi 16 um 16.06 11:30:15,606| (16.06 11:30:15,610|).
+48831 meldet neues Mi 80 um 16.06 11:30:15,558| (16.06 11:30:15,612|).
+48834 meldet neues Mi 944 um 16.06 11:30:15,558| (16.06 11:30:15,613|).
+48824 meldet neues Mi 16 um 16.06 11:30:15,559| (16.06 11:30:15,730|).
+48821 meldet neues Mi 80 um 16.06 11:30:15,559| (16.06 11:30:15,730|).
+48825 meldet neues Mi 16 um 16.06 11:30:15,560| (16.06 11:30:15,730|).
+48835 meldet neues Mi 32 um 16.06 11:30:15,563| (16.06 11:30:15,730|).
+48815 meldet neues Mi 16 um 16.06 11:30:18,610| (16.06 11:30:18,666|).
+48833 meldet neues Mi 16 um 16.06 11:30:18,610| (16.06 11:30:18,666|).
+48834 meldet neues Mi 16 um 16.06 11:30:18,619| (16.06 11:30:18,676|).
+488313 meldet neues Mi 48 um 16.06 11:30:18,667| (16.06 11:30:18,669|).
+488211 meldet neues Mi 16 um 16.06 11:30:21,687| (16.06 11:30:21,691|).
+48835 meldet neues Mi 16 um 16.06 11:30:21,645| (16.06 11:30:21,700|).
+48821 meldet neues Mi 16 um 16.06 11:30:21,644| (16.06 11:30:21,698|).
+48838 meldet neues Mi 16 um 16.06 11:30:21,647| (16.06 11:30:21,700|).
+48836 meldet neues Mi 16 um 16.06 11:30:24,652| (16.06 11:30:24,706|).
+488313 meldet neues Mi 16 um 16.06 11:30:24,725| (16.06 11:30:24,726|).
+488212 meldet neues Mi 16 um 16.06 11:30:24,772| (16.06 11:30:24,773|).
+48812 meldet neues Mi 16 um 16.06 11:30:27,690| (16.06 11:30:27,745|).
+488216 meldet neues Mi 16 um 16.06 11:30:27,780| (16.06 11:30:27,906|).
+48818 meldet neues Mi 16 um 16.06 11:30:30,730| (16.06 11:30:30,785|).
+488115 meldet neues Mi 16 um 16.06 11:30:30,965| (16.06 11:30:30,966|).
+488113 meldet neues Mi 16 um 16.06 11:30:33,005| (16.06 11:30:33,007|).
+48832 meldet neues Mi 16 um 16.06 11:30:36,997| (16.06 11:30:36,052|).
+488312 meldet neues Mi 16 um 16.06 11:30:39,064| (16.06 11:30:39,065|).
+488314 meldet neues Mi 16 um 16.06 11:30:42,085| (16.06 11:30:42,087|).
+488213 meldet neues Mi 16 um 16.06 11:30:45,125| (16.06 11:30:45,127|).
+48829 meldet neues Mi 16 um 16.06 11:30:48,165| (16.06 11:30:48,167|).
+48814 meldet neues Mi 16 um 16.06 11:30:51,157| (16.06 11:30:51,211|).
+488210 meldet neues Mi 16 um 16.06 11:30:54,227| (16.06 11:30:54,228|).
+48811 meldet neues Mi 16 um 16.06 11:30:57,210| (16.06 11:30:57,265|).
+48839 meldet neues Mi 16 um 16.06 11:31:00,306| (16.06 11:31:00,308|).
+488310 meldet neues Mi 16 um 16.06 11:31:03,365| (16.06 11:31:03,367|).
+48823 meldet neues Mi 16 um 16.06 11:31:06,357| (16.06 11:31:06,411|).
+488114 meldet neues Mi 16 um 16.06 11:31:09,426| (16.06 11:31:09,428|).
+48822 meldet neues Mi 16 um 16.06 11:31:12,380| (16.06 11:31:12,435|).
+48826 meldet neues Mi 16 um 16.06 11:31:15,410| (16.06 11:31:15,465|).
+48813 meldet neues Mi 16 um 16.06 11:31:18,450| (16.06 11:31:18,506|).
+ggT-Prozess 48837 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 8620510860 gesendet.
+ggT-Prozess 48827 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 726996415860 gesendet.
+ggT-Prozess 48817 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 443556 gesendet.
+ggT-Prozess 48836 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 18404100 gesendet.
+ggT-Prozess 48826 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 21780 gesendet.
+ggT-Prozess 48816 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 355212 gesendet.
+ggT-Prozess 48835 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 432900 gesendet.
+ggT-Prozess 48825 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 97683300 gesendet.
+ggT-Prozess 48815 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 84658860 gesendet.
+Beginne eine neue ggT-Berechnung mit Ziel 36.
+Allen ggT-Prozessen ein initiales Mi gesendet.
+ggT-Prozess 488116 (ggt2@lab33.cpt.haw-hamburg.de) startendes y 1259388 gesendet.
+ggT-Prozess 48813 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 571428 gesendet.
+ggT-Prozess 488214 (ggt2@lab33.cpt.haw-hamburg.de) startendes y 828 gesendet.
+ggT-Prozess 48827 (ggt4@lab32.cpt.haw-hamburg.de) startendes y 165636900 gesendet.
+ggT-Prozess 488112 (ggt1@lab33.cpt.haw-hamburg.de) startendes y 1694630340 gesendet.
+ggT-Prozess 488316 (ggt2@lab33.cpt.haw-hamburg.de) startendes y 628452 gesendet.
+ggT-Prozess 48833 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 20738916 gesendet.
+ggT-Prozess 48811 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 26071236 gesendet.
+ggT-Prozess 48831 (ggt3@lab32.cpt.haw-hamburg.de) startendes y 144155700 gesendet.
+ggT-Prozess 488312 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 2581052364 gesendet.
+ggT-Prozess 48825 (ggt4@lab32.cpt.haw-hamburg.de) startendes y 77220 gesendet.
+ggT-Prozess 48837 (ggt4@lab32.cpt.haw-hamburg.de) startendes y 25274700 gesendet.
+Allen ausgewählten ggT-Prozessen ein y gesendet.
+ggT-Prozess 488211 (ggt1@lab33.cpt.haw-hamburg.de) startendes y 27709496100 gesendet.
+ggT-Prozess 488112 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 1938093300 gesendet.
+ggT-Prozess 488212 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 4284900 gesendet.
+ggT-Prozess 488211 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 57132 gesendet.
+ggT-Prozess 488111 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 56628 gesendet.
+ggT-Prozess 488311 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 216134069580 gesendet.
+ggT-Prozess 488310 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 1511427060 gesendet.
+ggT-Prozess 488110 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 52380900 gesendet.
+ggT-Prozess 488210 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 9956700 gesendet.
+ggT-Prozess 48839 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 724148100 gesendet.
+ggT-Prozess 48829 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 436197849516 gesendet.
+ggT-Prozess 48819 (ggt1@lab33.cpt.haw-hamburg.de) initiales Mi 6285708 gesendet.
+ggT-Prozess 488116 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 62344260 gesendet.
+ggT-Prozess 488316 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 98242758900 gesendet.
+ggT-Prozess 488216 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 5667660 gesendet.
+ggT-Prozess 488315 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 31428540 gesendet.
+ggT-Prozess 488215 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 78213708 gesendet.
+ggT-Prozess 488115 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 85014900 gesendet.
+ggT-Prozess 488314 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 685786860 gesendet.
+ggT-Prozess 488214 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 268351380 gesendet.
+ggT-Prozess 488114 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 1125540 gesendet.
+ggT-Prozess 488313 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 1776060 gesendet.
+ggT-Prozess 488213 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 542124 gesendet.
+ggT-Prozess 488113 (ggt2@lab33.cpt.haw-hamburg.de) initiales Mi 141957880020 gesendet.
+ggT-Prozess 48834 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 208224900 gesendet.
+ggT-Prozess 48824 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 36263700 gesendet.
+ggT-Prozess 48814 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 901692 gesendet.
+ggT-Prozess 48833 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 17922060 gesendet.
+ggT-Prozess 48823 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 25274700 gesendet.
+ggT-Prozess 48813 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 165636900 gesendet.
+ggT-Prozess 48832 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 4052376900 gesendet.
+ggT-Prozess 48822 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 459540 gesendet.
+ggT-Prozess 48812 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 172824300 gesendet.
+ggT-Prozess 48811 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 108 gesendet.
+ggT-Prozess 48821 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 2049300 gesendet.
+ggT-Prozess 48831 (ggt3@lab32.cpt.haw-hamburg.de) initiales Mi 1341756900 gesendet.
+ggT-Prozess 48838 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 3713580 gesendet.
+ggT-Prozess 48828 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 595410660 gesendet.
+ggT-Prozess 48818 (ggt4@lab32.cpt.haw-hamburg.de) initiales Mi 7696260 gesendet.
+488116 meldet neues Mi 634248 um 16.06 11:34:47,690| (16.06 11:34:47,691|).
+48827 meldet neues Mi 16061760 um 16.06 11:34:47,640| (16.06 11:34:47,710|).
+48825 meldet neues Mi 77220 um 16.06 11:34:47,641| (16.06 11:34:47,710|).
+488112 meldet neues Mi 243462960 um 16.06 11:34:47,699| (16.06 11:34:47,712|).
+488214 meldet neues Mi 720 um 16.06 11:34:47,692| (16.06 11:34:47,714|).
+48813 meldet neues Mi 494208 um 16.06 11:34:47,672| (16.06 11:34:47,726|).
+48837 meldet neues Mi 1838160 um 16.06 11:34:47,672| (16.06 11:34:47,732|).
+488311 meldet neues Mi 110124 um 16.06 11:34:50,726| (16.06 11:34:50,728|).
+488215 meldet neues Mi 108 um 16.06 11:34:50,726| (16.06 11:34:50,730|).
+48827 meldet neues Mi 720 um 16.06 11:34:50,679| (16.06 11:34:50,734|).
+48817 meldet neues Mi 36 um 16.06 11:34:53,716| (16.06 11:34:53,770|).
+48837 meldet neues Mi 108 um 16.06 11:34:53,717| (16.06 11:34:53,773|).
+488116 meldet neues Mi 83628 um 16.06 11:34:53,766| (16.06 11:34:53,775|).
+488214 meldet neues Mi 72 um 16.06 11:34:53,765| (16.06 11:34:53,774|).
+488111 meldet neues Mi 36 um 16.06 11:34:56,806| (16.06 11:34:56,808|).
+488215 meldet neues Mi 36 um 16.06 11:34:56,806| (16.06 11:34:56,810|).
+488311 meldet neues Mi 26496 um 16.06 11:34:56,807| (16.06 11:34:56,812|).
+48827 meldet neues Mi 72 um 16.06 11:34:56,757| (16.06 11:34:56,813|).
+48816 meldet neues Mi 36 um 16.06 11:34:56,757| (16.06 11:34:56,813|).
+488214 meldet neues Mi 36 um 16.06 11:34:59,846| (16.06 11:34:59,848|).
+488112 meldet neues Mi 36 um 16.06 11:34:59,846| (16.06 11:34:59,848|).
+488311 meldet neues Mi 36 um 16.06 11:34:59,847| (16.06 11:34:59,849|).
+488116 meldet neues Mi 4140 um 16.06 11:34:59,853| (16.06 11:34:59,899|).
+48827 meldet neues Mi 36 um 16.06 11:34:59,797| (16.06 11:34:59,899|).
+48837 meldet neues Mi 36 um 16.06 11:34:59,803| (16.06 11:34:59,899|).
+48819 meldet neues Mi 36 um 16.06 11:35:02,868| (16.06 11:35:02,870|).
+488116 meldet neues Mi 36 um 16.06 11:35:02,886| (16.06 11:35:02,905|).
+488110 meldet neues Mi 36 um 16.06 11:35:05,925| (16.06 11:35:05,928|).
+488315 meldet neues Mi 36 um 16.06 11:35:08,965| (16.06 11:35:08,969|).
+48815 meldet neues Mi 36 um 16.06 11:35:11,930| (16.06 11:35:11,988|).
+48838 meldet neues Mi 36 um 16.06 11:35:14,970| (16.06 11:35:14,025|).
+488212 meldet neues Mi 36 um 16.06 11:35:17,065| (16.06 11:35:17,066|).
+488216 meldet neues Mi 36 um 16.06 11:35:20,085| (16.06 11:35:20,087|).
+488115 meldet neues Mi 36 um 16.06 11:35:23,129| (16.06 11:35:23,131|).
+488113 meldet neues Mi 36 um 16.06 11:35:26,167| (16.06 11:35:26,169|).
+48832 meldet neues Mi 36 um 16.06 11:35:29,130| (16.06 11:35:29,188|).
+488312 meldet neues Mi 36 um 16.06 11:35:32,225| (16.06 11:35:32,226|).
+488314 meldet neues Mi 36 um 16.06 11:35:35,245| (16.06 11:35:35,251|).
+488213 meldet neues Mi 36 um 16.06 11:35:38,285| (16.06 11:35:38,287|).
+48829 meldet neues Mi 36 um 16.06 11:35:41,327| (16.06 11:35:41,328|).
+48814 meldet neues Mi 36 um 16.06 11:35:44,290| (16.06 11:35:44,348|).
+488210 meldet neues Mi 36 um 16.06 11:35:47,385| (16.06 11:35:47,386|).
+48811 meldet neues Mi 36 um 16.06 11:35:50,370| (16.06 11:35:50,425|).
+48839 meldet neues Mi 36 um 16.06 11:35:53,445| (16.06 11:35:53,446|).
+488310 meldet neues Mi 36 um 16.06 11:35:56,485| (16.06 11:35:56,487|).
+48823 meldet neues Mi 36 um 16.06 11:35:59,450| (16.06 11:35:59,506|).
+488114 meldet neues Mi 36 um 16.06 11:36:02,555| (16.06 11:36:02,556|).
+48822 meldet neues Mi 36 um 16.06 11:36:05,530| (16.06 11:36:05,586|).
+48826 meldet neues Mi 36 um 16.06 11:36:08,580| (16.06 11:36:08,633|).
+48813 meldet neues Mi 36 um 16.06 11:36:11,610| (16.06 11:36:11,663|).
+Allen ggT-Prozessen ein 'kill' gesendet.
+Downtime: 16.06 11:36:40,531| vom Koordinator chef
