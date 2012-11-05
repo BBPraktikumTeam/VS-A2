@@ -9,6 +9,7 @@
 % loop für weiteres empfangen
 % GGT immer killbar!
 % Mehrere Berechnungen mit gleichem Ring
+% Koordinator und Nameservice müssen erst erfragt werden (siehe Starter)
 %% %%%%%%%%%%%
 
 %% Mögliche Fehler des Algorithmus
@@ -18,6 +19,8 @@
 % Namensdienst auf lab22
 % Kommunikation über Name, Node
 
+start(Vzeit, Tzeit, Startnr, Gruppe, Team, Namensdienst, Koordinator, Starternr) ->
+    spawn(fun()->init(Vzeit, Tzeit, Startnr, Gruppe, Team, Namensdienst, Koordinator, Starternr) end).
 
 init(Vzeit, Tzeit, Startnr, Gruppe, Team, Namensdienst, Koordinator, Starternr) -> 
     Name=get_name(Gruppe, Team, Startnr, Starternr),
