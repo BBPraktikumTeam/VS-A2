@@ -3,7 +3,7 @@
 
 get_neighbors_list(List) when is_list(List) ->
     Length = length(List),
-    if Length < 2 -> {error, list_to_small};
+    if Length < 3 -> {error, list_to_small};
        true -> ListWithIndex=lists:zip(lists:seq(1,length(List)),List),
 	       lists:map(fun({N,Element})-> {Element,get_neighbors(N,List)} end,ListWithIndex)
     end.

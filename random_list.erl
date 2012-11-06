@@ -1,5 +1,5 @@
 -module(random_list).
--export([get_first_n/2]).
+-export([get_first_n/2,random_ordering/1]).
 
 get_first_n(N,List) when is_integer(N) and is_list(List) ->
     Length = length(List),
