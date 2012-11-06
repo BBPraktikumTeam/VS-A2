@@ -103,7 +103,7 @@ number_of_processes_to_start(Processes) when is_list(Processes)->
     end.
 
 calc_start_value(GGT)->
-    GGT* math:pow(3,random_no())*math:pow(5,random_no())* math:pow(11,random_no())* math:pow(13,random_no())* math:pow(23,random_no())* math:pow(37,random_no()).
+    round(GGT* math:pow(3,random_no())*math:pow(5,random_no())* math:pow(11,random_no())* math:pow(13,random_no())* math:pow(23,random_no())* math:pow(37,random_no())).
 
 random_no()->
     random:uniform(3)-1.
