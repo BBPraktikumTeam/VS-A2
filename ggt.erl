@@ -56,7 +56,7 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
 loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, timer = Timer}) -> 
     receive
         {setpm,MiNeu} ->
-            Lastworked = get_timestamp(),
+            Now = get_timestamp(),
             %% New Timer Setzten 
             if (Timer == undefined) ->
                 Newtimer = spawn(fun() -> start_abstimmung(S) end);
@@ -67,9 +67,9 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
             end,
             %% eventuell auslagern in eigene Loop, da nur zum Starten gebraucht
             log(["Starting with MI: ", MiNeu], Name),
-            loop(S#state{mi = MiNeu, lastworked = Lastworked, timer = Newtimer});
+            loop(S#state{mi = MiNeu, lastworked = Now, timer = Newtimer});
         {sendy,Y} ->
-            Lastworked = get_timestamp(),
+            Now = get_timestamp(),
             %% New Timer Setzten 
             if (Timer == undefined) ->
                 Newtimer = spawn(fun() -> start_abstimmung(S) end);
@@ -80,17 +80,34 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
             end,
         % timer starten -> spawn timer
             NewState = calc_ggt(S,Y),
-            loop(NewState#state{lastworked = Lastworked, timer = Newtimer});
-        {abstimmung,Initiator} ->        
+            loop(NewState#state{lastworked = Now, timer = Newtimer});
+        {abstimmung,Initiator} ->     
+			log(["Got Abstimmung"], Name),
             %% mal gucken
             % Initiator wichtig. Wenn man selber startet, dann self() ansonsten durchreichen. Wenn Nachricht ankommt mit meinem Namen, dann Term senden -> Also abstimmung erfolgreich
-            Now = get_timestamp(),
-            if Now - Lastworked >= (Tzeit/2) ->
-                    case get_right(S) of
-                        {ok, Right} -> Right ! {abstimmung,Initiator};
-                        {error, Reason} -> log(["ERROR in Abstimmung: ", Reason], Name)
-                    end
-                
+            if Initiator == self() ->
+				%% Init = Self -> Abstimmung erfogreich
+				case get_koordinator(S) of
+					{ok,KoordinatorPid} ->
+			%% CZeit = werkzeug:timeMillis?!?!??!
+						log(["ABSTIMMUNG: Erfolgreich. Sending Mi: ", Mi, " to Koordinator"],Name),
+						KoordinatorPid ! {briefterm,{Name,Mi,werkzeug:timeMilliSecond()}};
+					{error, ReasonKoordinator} ->
+						log(["ERROR: Cannot send Term and Erg Message to Koordinator ", ReasonKoordinator],Name)
+				end;
+				%% Init != Self also Abstimmung eventuell weiter senden.
+				true ->
+					Now = get_timestamp(),
+					if Now - Lastworked >= (Tzeit/2) ->
+						%% Hier auch den Timer killen? 
+						exit(Timer, normal),
+						case get_right(S) of
+							{ok, Right} -> 
+								log(["Abstimmung yes, sending to Next One"], Name),
+								Right ! {abstimmung,Initiator};
+							{error, Reason} -> log(["ERROR in Abstimmung: ", Reason], Name)
+						end
+					end
             end,
             loop(S);
         {tellmi,From} ->
@@ -104,13 +121,30 @@ get_timestamp() -> {_,Seconds,_} = erlang:now(), Seconds.
 
 
  
-calc_ggt(S = #state{vzeit = Vzeit, mi = Mi, left = Left, right = Right, koordinatorname = Koordinatorname, name = Name}, Y) when Y < Mi-> 
+calc_ggt(S = #state{vzeit = Vzeit, mi = Mi, name = Name}, Y) when Y < Mi-> 
     NewMi = ((Mi-1) rem Y) + 1,
     log(["Caculating new MI: ",NewMi," Y: ",Y],Name),
     timer:sleep(Vzeit),
-    Left ! {sendy, NewMi},
-    Right ! {sendy, NewMi},
-    Koordinatorname ! {briefmi, Name},
+	case get_left(S) of
+		{ok, LeftPid} ->
+			log(["Sending Y: ", NewMi, " to Left"],Name),
+			LeftPid ! {sendy, NewMi};
+		{error, ReasonLeft} ->
+			log(["ERROR: get_left ", ReasonLeft], Name)
+	end,
+	case get_right(S) of
+		{ok, RightPid} ->
+			log(["Sending Y: ", NewMi, " to Right"],Name),
+			RightPid ! {sendy, NewMi};
+		{error, ReasonRight} ->
+			log(["ERROR: get_left ", ReasonRight], Name)
+	end,
+	case get_koordinator(S) of
+		{ok,KoordinatorPid} ->
+			KoordinatorPid ! {briefmi, Name};
+		{error,ReasonKoord} -> 
+			log(["ERROR: get_koordinator ", ReasonKoord], Name)
+	end,
     S#state{mi = NewMi};
 calc_ggt(S,_) -> S.
 
@@ -173,6 +207,7 @@ start_abstimmung(S = #state{name = Name, tzeit = Tzeit}) ->
     timer:sleep(Tzeit* 1000),
     case get_right(S) of
         {ok, Right} ->
+			log(["ABSTIMMUNG: Sending abtimmung? to Right"], Name),
             Right ! {abstimmung,self()};
         {error, Reason} ->
             log(["Abstimmung Error: ", Reason], Name),
