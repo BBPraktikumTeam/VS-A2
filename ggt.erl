@@ -39,7 +39,7 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
                         receive
                             {setneighbors,Left,Right} ->    
                                 log(["Neighbors set. Left: ",Left," Right: ",Right,"|starting loop"], Name),
-                                loop(S = #state{left=Left, right=Right});
+                                loop(S#state{left=Left, right=Right});
                             kill -> terminate(Name)
                         end;
                     {error, Reason} -> 

@@ -56,7 +56,7 @@ prepare_ready(S=#state{processes=Processes})->
     RandomProcesses=random_list:random_ordering(Processes),
     log("Setting neighbors for GGT processes"),
     lists:map(fun({X,{Left,Right}})-> send_message(X,{setneighbors,Left,Right},S) end, circular_list:get_neighbors_list(RandomProcesses)),
-    ready(S=#state{processes=RandomProcesses}).
+    ready(S#state{processes=RandomProcesses}).
 
 ready(S)->
     receive
