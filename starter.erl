@@ -57,14 +57,12 @@ loop_commands(S=#state{starternr=Starternr})->
     end.
 			  
 get_koordinator(S=#state{koordinatorname=Koordinatorname,nameservicenode=Nameservicenode,starternr=Starternr})->    
-    net_adm:ping(Nameservicenode),
-    receive
-	kill ->
-	    terminate(S);
+    case net_adm:ping(Nameservicenode) of
 	pang -> 
 	    log("Cannot reach nameserivenode!",Starternr),
 	    {error,no_nameservicenode};
 	pong -> 
+	    global:sync(),
 	    Nameservice = global:whereis_name(nameservice),
 	    Nameservice ! {self(),{lookup,Koordinatorname}},
 	    receive
@@ -73,7 +71,7 @@ get_koordinator(S=#state{koordinatorname=Koordinatorname,nameservicenode=Nameser
 		    {error,no_koordinator};
 		kill ->
 		    terminate(S);
-		Koordinator -> 
+		Koordinator={_,_} -> 
 		    log("Found koordinator",Starternr),
 		    {ok,Koordinator}
 	    end
@@ -86,5 +84,5 @@ terminate(#state{starternr=Starternr})->
 
 log(Message,Starternr)->
     Name = lists:concat(["ggt",Starternr,"@",net_adm:localhost()]),
-    NewMessage = lists:concat([Name,werkzeug:timeMilliSecond()," | ",Message,io_lib:nl()]),
+    NewMessage = lists:concat([Name,werkzeug:timeMilliSecond()," ",Message,io_lib:nl()]),
     werkzeug:logging(lists:concat([Name,".log"]),NewMessage).
