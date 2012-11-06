@@ -128,21 +128,21 @@ get_nameservice(#state{nameservicenode = Nameservicenode, name = Name}) ->
         {ok, Nameservice}
     end.
 
-get_koordinator(#state{nameservicenode = Nameservicenode, koordinatorname = Koordinatorname, name = Name}) ->
+get_koordinator(S = #state{koordinatorname = Koordinatorname, name = Name}) ->
     log(["Get Koordinator -> Get Dienst"], Name),
-    get_dienst(Nameservicenode, Koordinatorname, Name).
+    get_dienst(S, Koordinatorname).
     
-get_right(#state{nameservicenode = Nameservicenode, right = Right, name = Name}) ->
-    get_dienst(Nameservicenode, Right, Name).
+get_right(S = #state{right = Right}) ->
+    get_dienst(S, Right).
 
-get_left(#state{nameservicenode = Nameservicenode, left = Left, name = Name}) ->
-    get_dienst(Nameservicenode, Left, Name).
+get_left(S = #state{left = Left}) ->
+    get_dienst(S, Left).
     
-get_dienst(Nameservicenode, Dienstname, Name) -> 
+get_dienst(S = #state{nameservicenode = Nameservicenode, name = Name}, Dienstname) -> 
     log(["Trying to get Nameservice: ", Nameservicenode],Name),
     
     %% Wie hier state reinbekommen?!?!?!?
-    case get_nameservice(#state{nameservicenode = Nameservicenode}) of 
+    case get_nameservice(S) of 
         {ok, Nameservice} ->
             log(["Got Nameservice, trying to contact it for: ", Dienstname], Name),
             Nameservice ! {self(),{lookup,Dienstname}},
@@ -153,7 +153,7 @@ get_dienst(Nameservicenode, Dienstname, Name) ->
                 kill ->
                     terminate(Name);
                 Dienst -> 
-                    log([Dienst," found"], Name),
+                    log([Dienstname," found"], Name),
                     {ok,Dienst}
             end;
         {error, Reason} ->
