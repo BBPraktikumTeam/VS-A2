@@ -1,1 +1,1 @@
--record(state,{namensdienst,koordinator, name, vzeit, tzeit, left, right, mi}).
+-record(state,{nameservicenode,koordinatorname, name, vzeit, tzeit,lastworked, left, right, mi, timer}).
