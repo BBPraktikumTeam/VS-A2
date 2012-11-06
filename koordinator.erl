@@ -8,7 +8,7 @@
 start()-> spawn(fun init/0).
 
 init()->
-    {ok,ConfigListe} = file:consult("ggt.cfg"),
+    {ok,ConfigListe} = file:consult("koordinator.cfg"),
     {ok,Arbeitszeit} = werkzeug:get_config_value(arbeitszeit,ConfigListe),
     {ok,Termzeit} = werkzeug:get_config_value(termzeit,ConfigListe),
     {ok,GGTProzessnummer} = werkzeug:get_config_value(ggtprozessnummer,ConfigListe),

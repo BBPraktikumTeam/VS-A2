@@ -24,6 +24,7 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
     S = #state{nameservicenode = Nameservicenode,koordinatorname = Koordinatorname, name = Name, vzeit = Vzeit, tzeit=Tzeit},
     case get_nameservice(S) of
         {ok,Nameservice} ->
+                log(["Sende Nachricht an Nameservicenode: ", Nameservicenode], Name),
                 Nameservice ! {self(),{rebind,Name,node()}},
                 log(["Nachricht an Nameservicenode gesendet"],Name),
                 receive
@@ -32,11 +33,12 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
                 end,
                 case get_koordinator(S) of
                     {ok,Koordinator} -> 
+                        log(["Sende Nachricht an Koordinator: ", Koordinatorname], Name),
                         Koordinator ! {hello, Name},
-                        log(["warte auf Nachbarmessage vom Koordinator"], Name),
+                       log(["warte auf Nachbarmessage vom Koordinator"], Name),
                         receive
                             {setneighbors,Left,Right} ->    
-                                log(["Neighbors set, starting loop"], Name),
+                                log(["Neighbors set. Left: ",Left," Right: ",Right,"|starting loop"], Name),
                                 loop(S = #state{left=Left, right=Right});
                             kill -> terminate(Name)
                         end;
@@ -122,10 +124,12 @@ get_nameservice(#state{nameservicenode = Nameservicenode, name = Name}) ->
         pong -> 
         global:sync(),
 	    Nameservice = global:whereis_name(nameservice),
+        log(["Got Nameservice: ", Nameservicenode], Name),
         {ok, Nameservice}
     end.
 
 get_koordinator(#state{nameservicenode = Nameservicenode, koordinatorname = Koordinatorname, name = Name}) ->
+    log(["Get Koordinator -> Get Dienst"], Name),
     get_dienst(Nameservicenode, Koordinatorname, Name).
     
 get_right(#state{nameservicenode = Nameservicenode, right = Right, name = Name}) ->
@@ -135,8 +139,12 @@ get_left(#state{nameservicenode = Nameservicenode, left = Left, name = Name}) ->
     get_dienst(Nameservicenode, Left, Name).
     
 get_dienst(Nameservicenode, Dienstname, Name) -> 
-    case get_nameservice(Nameservicenode) of 
+    log(["Trying to get Nameservice: ", Nameservicenode],Name),
+    
+    %% Wie hier state reinbekommen?!?!?!?
+    case get_nameservice(#state{nameservicenode = Nameservicenode}) of 
         {ok, Nameservice} ->
+            log(["Got Nameservice, trying to contact it for: ", Dienstname], Name),
             Nameservice ! {self(),{lookup,Dienstname}},
             receive
                 not_found ->
@@ -145,11 +153,11 @@ get_dienst(Nameservicenode, Dienstname, Name) ->
                 kill ->
                     terminate(Name);
                 Dienst -> 
-                    log([Dienstname," found"], Name),
+                    log([Dienst," found"], Name),
                     {ok,Dienst}
             end;
         {error, Reason} ->
-            log(["ERROR Nameservice: ", Nameservicenode, " not found"], name)
+            log(["ERROR Nameservice: ", Nameservicenode, " not found"], name),
             {error,Reason}
     end.        
    
