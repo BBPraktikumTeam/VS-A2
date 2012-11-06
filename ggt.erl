@@ -4,11 +4,7 @@
 
 %% %%%%%%%%%%%
 % TODO:
-% abstimmung in loop inplementen
-% Timer für Terminierung
 % loop für weiteres empfangen
-% Mehrere Berechnungen mit gleichem Ring
-% Koordinatorname und Nameservice müssen erst erfragt werden (siehe Starter)
 %% %%%%%%%%%%%
 
 %% Mögliche Fehler des Algorithmus
@@ -121,8 +117,7 @@ get_name(A,B,C,D) -> erlang:list_to_atom(lists:concat([A,B,C,D])).
 get_nameservice(#state{nameservicenode = Nameservicenode, name = Name}) -> 
     case net_adm:ping(Nameservicenode) of
         pang -> 
-            log(["Cannot reach nameservicenode!\n"],Name),
-            io:format("Cannot reach nameserivenode!\n"),
+            log(["ERROR: Cannot reach nameservicenode: ", Nameservicenode],Name),
             {error,no_nameservicenode};
         pong -> 
         global:sync(),
@@ -145,21 +140,21 @@ get_dienst(Nameservicenode, Dienstname, Name) ->
             Nameservice ! {self(),{lookup,Dienstname}},
             receive
                 not_found ->
-                    io:format("Koordinatorname not found.\n"),
+                    log(["ERROR: ",Dienstname," not found"], Name),
                     {error,no_koordinator};
                 kill ->
                     terminate(Name);
                 Dienst -> 
-                    io:format("Found Dienst: ~p.\n",[Dienst]),
+                    log([Dienstname," found"], Name),
                     {ok,Dienst}
             end;
         {error, Reason} ->
-            io:format("Nameservice not found.\n"),
+            log(["ERROR Nameservice: ", Nameservicenode, " not found"], name)
             {error,Reason}
     end.        
    
 log(Nachricht,Name) ->
-    NewNachricht = lists:concat([werkzeug:timeMilliSecond(),"|",Name,": ",lists:concat(Nachricht),io_lib:nl()]),
+    NewNachricht = lists:concat([werkzeug:timeMilliSecond(),Name,": ",lists:concat(Nachricht),io_lib:nl()]),
     werkzeug:logging(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
     
 terminate(Name) -> 
