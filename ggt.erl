@@ -29,7 +29,7 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
                 log(["Nachricht an Nameservicenode gesendet"],Name),
                 receive
                     ok -> log(["Bind done"],Name);
-                    kill -> terminate(Name)
+                    kill -> terminate(S)
                 end,
                 case get_koordinator(S) of
                     {ok,Koordinator} -> 
@@ -40,7 +40,7 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
                             {setneighbors,Left,Right} ->    
                                 log(["Neighbors set. Left: ",Left," Right: ",Right,"|starting loop"], Name),
                                 loop(S#state{left=Left, right=Right});
-                            kill -> terminate(Name)
+                            kill -> terminate(S)
                         end;
                     {error, Reason} -> 
                         log(["Error: ", Reason], Name),
@@ -132,7 +132,7 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
             log(["Tellmi to: ", From],Name),
             From ! Mi,
             loop(S);
-        kill -> terminate(Name)
+        kill -> terminate(S)
     end.  
     
 get_timestamp() -> {_,Seconds,_} = erlang:now(), Seconds.
@@ -207,7 +207,7 @@ get_dienst(S = #state{nameservicenode = Nameservicenode, name = Name}, Dienstnam
                     log(["ERROR: ",Dienstname," not found"], Name),
                     {error,no_koordinator};
                 kill ->
-                    terminate(Name)
+                    terminate(S)
                 
            %     _Any ->
             %        log(["Nameservice send CRAP"],Name),
@@ -222,7 +222,15 @@ log(Nachricht,Name) ->
     NewNachricht = lists:concat([werkzeug:timeMilliSecond(),Name,": ",lists:concat(Nachricht),io_lib:nl()]),
     werkzeug:logging(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
     
-terminate(Name) -> 
+terminate(S = #state{name = Name}) -> 
+%% unbind from nameservice
+    case get_nameservice(S) of
+        {ok, NameservicePid} -> 
+            log(["Unbinding from Nameservice"],Name),
+            NameservicePid ! {self(),{unbind,Name}};
+        {error, Reason} -> 
+            log(["Cannot Unbind from Nameservice, because: ", Reason],Name)
+    end,
     log(["Killed"], Name),
     exit(normal).
        
@@ -233,7 +241,7 @@ start_abstimmung(GGT, Tzeit) ->
             GGT ! start_abstimmung.
  %       {error, Reason} ->
 %            log(["Abstimmung Error: ", Reason], Name),
-%            terminate(Name)
+%            terminate(S)
 %    end.
     
         

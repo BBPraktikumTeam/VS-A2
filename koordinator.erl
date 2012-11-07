@@ -22,7 +22,7 @@ init()->
                 log("Nachricht an Nameservicenode gesendet");
 	{error,Reason} -> 
 	    log(lists:concat(["Cannot reach nameservicenode because of ",Reason,". Therefore, shutting down"])),
-	    terminate()
+	    terminate(S)
     end,
     initial(S).
 
@@ -52,7 +52,7 @@ initial(S=#state{processes=Processes,arbeitszeit=Arbeitszeit,termzeit=Termzeit,g
         prepare_ready(S);
 	kill -> 
 	    kill_all(S),
-	    terminate()
+	    terminate(S)
     end.
 %
 % transition to ready loop
@@ -79,7 +79,7 @@ ready(S)->
 	    initial(S#state{processes=[]});
 	kill ->
 	    kill_all(S),
-	    terminate()
+	    terminate(S)
     end.
 
 %%===================================
@@ -141,7 +141,7 @@ get_service(Name,S=#state{nameservicenode=Nameservicenode})->
 		    {error,service_not_found};
 		kill ->
 		    kill_all(S),
-		    terminate();
+		    terminate(S);
 		Service={NameOfService,Node} when is_atom(NameOfService) and is_atom(Node) -> 
 		    {ok,Service}
 	    end
@@ -170,7 +170,14 @@ kill_all(S=#state{processes=Processes}) when is_list(Processes)->
 kill_service(X,S)->
     send_message(X,kill,S).
 
-terminate()->
+terminate(#state{nameservicenode = Nameservicenode,koordinatorname=Koordinatorname})->
+        case get_nameservice(Nameservicenode) of
+        {ok, NameservicePid} -> 
+            log("Unbinding from Nameservice"),
+            NameservicePid ! {self(),{unbind,Koordinatorname}};
+        {error, Reason} -> 
+            log(lists:concat(["Cannot Unbind from Nameservice, because: ", Reason]))
+    end,
     log("Received kill command"),
     exit(killed).
 
