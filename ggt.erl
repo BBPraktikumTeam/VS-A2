@@ -21,7 +21,7 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
     Name=get_name(Gruppe, Team, Startnr, Starternr),
     file:write_file(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]),"",[write]),
     register(Name, self()),
-    S = #state{nameservicenode = Nameservicenode,koordinatorname = Koordinatorname, name = Name, vzeit = Vzeit, tzeit=Tzeit},
+    S = #state{nameservicenode = Nameservicenode,koordinatorname = Koordinatorname, name = Name, vzeit = Vzeit, tzeit=Tzeit, timer = no_timer},
     case get_nameservice(S) of
         {ok,Nameservice} ->
                 log(["Sende Nachricht an Nameservicenode: ", Nameservicenode], Name),
@@ -59,11 +59,11 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
             log(["Starting with MI: ", MiNeu], Name),
             Now = get_timestamp(),
             %% New Timer Setzten 
-            if  (Timer == undefined) ->ok;
+            if  (Timer == no_timer) ->ok;
                 true ->
                 % timer killen
                     log(["Killing old timer in Mi"], Name),
-                    exit(Timer, normal)
+                    exit(Timer, killed)
             end,
             log(["Starting new timer"], Name),
             Self=self(),
@@ -74,11 +74,11 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
             log(["Got Y: ", Y],Name),
             Now = get_timestamp(),
             %% New Timer Setzten 
-            if (Timer == undefined) ->ok;
+            if (Timer == no_timer) ->ok;
                 true ->
                 % timer killen
                     log(["Killing old timer in Y"], Name),
-                    exit(Timer, normal)
+                    exit(Timer, killed)
             end,
             log(["Starting new timer"], Name),
             Self=self(),
@@ -127,7 +127,7 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
 								Right ! {abstimmung,self()};
 							{error, Reason} -> log(["ERROR in Abstimmung: ", Reason], Name)
             end,
-            loop(S#state{timer = undefined});
+            loop(S#state{timer = no_timer});
         {tellmi,From} ->
             log(["Tellmi to: ", From],Name),
             From ! Mi,

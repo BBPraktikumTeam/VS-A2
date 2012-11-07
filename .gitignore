@@ -3,6 +3,9 @@
 #################
 *.log
 *.beam
+ggt.cfg
+koordinator.cfg
+
 
 *.pydevproject
 .project
