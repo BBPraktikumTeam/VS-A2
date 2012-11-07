@@ -129,7 +129,7 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
             end,
             loop(S#state{timer = no_timer});
         {tellmi,From} ->
-            log(["Tellmi to: ", From],Name),
+            log(["Received tellmi to"],Name),
             From ! Mi,
             loop(S);
         kill -> terminate(S)
