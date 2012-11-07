@@ -13,6 +13,7 @@ init(Starternr)->
     {ok, Nameservicenode} = werkzeug:get_config_value(nameservicenode, ConfigListe),
     {ok, Koordinatorname} = werkzeug:get_config_value(koordinatorname, ConfigListe),
     S=#state{koordinatorname=Koordinatorname,nameservicenode=Nameservicenode,team=Teamnummer,gruppe=Praktikumsgruppe,starternr=Starternr},
+    file:write_file(lists:concat(["ggt",Starternr,"@",net_adm:localhost(),".log"]),"",[write]),
     case get_koordinator(S) of
 	{ok,Koordinator}->
 	    log("Asking Koordinator for steeringval",Starternr),

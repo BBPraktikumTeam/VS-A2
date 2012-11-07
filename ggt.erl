@@ -220,7 +220,7 @@ get_dienst(S = #state{nameservicenode = Nameservicenode, name = Name}, Dienstnam
    
 log(Nachricht,Name) ->
     NewNachricht = lists:concat([werkzeug:timeMilliSecond(),Name,": ",lists:concat(Nachricht),io_lib:nl()]),
-    werkzeug:logging(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
+    werkzeug:logging_without_io(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
     
 terminate(S = #state{name = Name}) -> 
 %% unbind from nameservice

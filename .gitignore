@@ -3,6 +3,7 @@
 #################
 *.log
 *.beam
+*.dump
 ggt.cfg
 koordinator.cfg
 

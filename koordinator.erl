@@ -15,6 +15,7 @@ init()->
     {ok,Nameservicenode} = werkzeug:get_config_value(nameservicenode,ConfigListe),
     {ok,Koordinatorname} = werkzeug:get_config_value(koordinatorname,ConfigListe),
     S=#state{processes=[],arbeitszeit=Arbeitszeit,termzeit=Termzeit,ggtprozessnummer=GGTProzessnummer,nameservicenode=Nameservicenode,koordinatorname=Koordinatorname},
+    file:write_file(lists:concat(["Koordinator@",net_adm:localhost(),".log"]),"",[write]),
     register(Koordinatorname,self()),
     case get_nameservice(Nameservicenode) of
 	{ok,Nameservice} ->
@@ -74,6 +75,9 @@ ready(S)->
 	{start,GGT} ->
 	    start_ggt_process(GGT,S),
 	    ready(S);
+    start -> 
+        start_ggt_process(random:uniform(100),S),
+        ready(S);
 	reset ->
 	    kill_all(S),
 	    initial(S#state{processes=[]});
@@ -86,6 +90,7 @@ ready(S)->
 %% Starting ggt processes
 %%===================================
 start_ggt_process(GGT,S=#state{processes=Processes})->
+    log(lists:concat(["#########EXPECTED RESULT GGT: ", GGT, " ###############"])),
     ProcessesWithValue=lists:map(fun(X)->{X,calc_start_value(GGT)} end,Processes),
     log(lists:concat(["Sending initial Mi to all ",length(Processes)," processes"])),
     lists:map(fun({Process,StartValue})->

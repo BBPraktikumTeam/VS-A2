@@ -1,5 +1,5 @@
 -module(werkzeug).
--export([get_config_value/2,logging/2,timeMilliSecond/0,delete_last/1]).
+-compile(export_all).
 -define(ZERO, integer_to_list(0)).
 
 %% -------------------------------------------
@@ -18,20 +18,82 @@ get_config_value(Key, [{_OKey, _Value} | ConfigT]) ->
 
 % Schreibt auf den Bildschirm und in eine Datei
 % nebenläufig zur Beschleunigung
-% Beispielaufruf: logging("FileName.log","Textinhalt"),
+% Beispielaufruf: logging('FileName.log',"Textinhalt"),
 %
-logging(Datei,Inhalt) -> spawn( fun() ->
-								io:format(Inhalt),		
-								file:write_file(Datei,Inhalt,[append])
-								end).
+logging(Datei,Inhalt) -> Known = erlang:whereis(logklc),
+						case Known of
+						undefined -> PIDlogklc = spawn(fun() -> logloop(0) end),
+								 erlang:register(logklc,PIDlogklc);
+								_NotUndef -> ok
+						end,
+						logklc ! {Datei,Inhalt},
+						ok.
+                        
+logging_without_io(Datei,Inhalt) -> Known = erlang:whereis(logklc_without_io),
+						case Known of
+						undefined -> PIDlogklc = spawn(fun() -> logloop_without_io(0) end),
+								 erlang:register(logklc_without_io,PIDlogklc);
+								_NotUndef -> ok
+						end,
+						logklc_without_io ! {Datei,Inhalt},
+						ok.
+                        
+                        
+logstop( ) -> 	Known = erlang:whereis(logklc),
+				case Known of
+					undefined -> false;
+					_NotUndef -> logklc ! kill, true
+				end.
 
+logstop_without_io( ) -> 	Known = erlang:whereis(logklc_without_io),
+				case Known of
+					undefined -> false;
+					_NotUndef -> logklc_without_io ! kill, true
+				end.                
+                
+logloop(Y) -> 	receive
+					{Datei,Inhalt} -> io:format(Inhalt),
+									  file:write_file(Datei,Inhalt,[append]),
+									  logloop(Y+1);
+					kill -> true
+				end.
+
+logloop_without_io(Y) -> 	receive
+    {Datei,Inhalt} -> file:write_file(Datei,Inhalt,[append]),
+                      logloop_without_io(Y+1);
+    kill -> true
+end.
+                
 %% Löscht das letzte Element einer Liste
 % Beispielaufruf: Erg = delete_last([a,b,c]),
 %
-delete_last(List) -> delete_last(List,[]).
-delete_last([_H|[]],NewList) -> NewList;
-delete_last([H|T],NewList) -> delete_last(T,NewList++[H]).
+delete_last([]) -> [];
+delete_last([_Head]) -> [ ];
+delete_last([Head|Tail]) -> [Head|delete_last(Tail)].
 
+% schneller:
+% delete_last(List) ->
+%   [_|B] = lists:reverse(List),
+%   lists:reverse(B).
+
+%% Mischt eine Liste
+% Beispielaufruf: NeueListe = shuffle([a,b,c]),
+%
+shuffle(List) -> shuffle(List, []).
+shuffle([], Acc) -> Acc;
+shuffle(List, Acc) ->
+    {Leading, [H | T]} = lists:split(random:uniform(length(List)) - 1, List),
+    shuffle(Leading ++ T, [H | Acc]).
+
+%%
+% Unterbricht den aktuellen Timer
+% und erstellt einen neuen und gibt ihn zurück
+%%
+reset_timer(Timer,Sekunden,Message) ->
+	{ok, cancel} = timer:cancel(Timer),
+	{ok,TimerNeu} = timer:send_after(Sekunden*1000,Message),
+	TimerNeu.
+	
 %% Zeitstempel: 'MM.DD HH:MM:SS,SSS'
 % Beispielaufruf: Text = lists:concat([Clientname," Startzeit: ",timeMilliSecond()]),
 %
@@ -58,4 +120,23 @@ minTwo(List) ->
 		{0} -> ?ZERO ++ ?ZERO;
 		{1} -> ?ZERO ++ List;
 		_ -> List
+	end.
+
+% Ermittelt den Typ
+% Beispielaufruf: type_is(Something),
+%
+type_is(Something) ->
+    if is_atom(Something) -> atom;
+	   is_binary(Something) -> binary;
+	   is_bitstring(Something) -> bitstring;
+	   is_boolean(Something) -> boolean;
+	   is_float(Something) -> float;
+	   is_function(Something) -> function;
+	   is_integer(Something) -> integer;
+	   is_list(Something) -> list;
+	   is_number(Something) -> number;
+	   is_pid(Something) -> pid;
+	   is_port(Something) -> port;
+	   is_reference(Something) -> reference;
+	   is_tuple(Something) -> tuple
 	end.
