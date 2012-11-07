@@ -32,9 +32,11 @@ init()->
 initial(S=#state{processes=Processes,arbeitszeit=Arbeitszeit,termzeit=Termzeit,ggtprozessnummer=GGTProzessnummer})->
     receive
 	{getsteeringval,Starter}-> 
+        log("Was asked for steering val. Sending reply"),
 	    Starter ! {steeringval,Arbeitszeit,Termzeit,GGTProzessnummer},
 	    initial(S);
 	{hello,Clientname} ->
+        log(lists:concat(["Client ",Clientname," said hello"])),
 	    case lists:member(Clientname,Processes) of
 		true ->    
 		    initial(S);
@@ -42,9 +44,12 @@ initial(S=#state{processes=Processes,arbeitszeit=Arbeitszeit,termzeit=Termzeit,g
 		    initial(S#state{processes=[Clientname|Processes]})
 	    end;
 	reset -> 
+        log("Received command to reset."),
 	    kill_all(S),
 	    initial(S#state{processes=[]});
-	work -> prepare_ready(S);
+	work -> 
+        log("Received command to start working. No more laziness... :("),
+        prepare_ready(S);
 	kill -> 
 	    kill_all(S),
 	    terminate()
@@ -128,6 +133,7 @@ get_service(Name,S=#state{nameservicenode=Nameservicenode})->
 	    log(lists:concat(["Cannot get service ",Name," because of ",Reason])),
 	    Error;
 	{ok,Nameservice} ->
+    	log(lists:concat(["Asking nameservice for ",Name])),
 	    Nameservice ! {self(),{lookup,Name}},
 	    receive
 		not_found ->
@@ -136,7 +142,7 @@ get_service(Name,S=#state{nameservicenode=Nameservicenode})->
 		kill ->
 		    kill_all(S),
 		    terminate();
-		Service={_,_} -> 
+		Service={NameOfService,Node} when is_atom(NameOfService) and is_atom(Node) -> 
 		    {ok,Service}
 	    end
     end.

@@ -56,28 +56,33 @@ init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Star
 loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, timer = Timer}) -> 
     receive
         {setpm,MiNeu} ->
-            Now = get_timestamp(),
-            %% New Timer Setzten 
-            if (Timer == undefined) ->
-                Newtimer = spawn(fun() -> start_abstimmung(S) end);
-            true ->
-                % timer killen
-                exit(Timer, normal),
-                Newtimer = spawn(fun() -> start_abstimmung(S) end)
-            end,
-            %% eventuell auslagern in eigene Loop, da nur zum Starten gebraucht
             log(["Starting with MI: ", MiNeu], Name),
-            loop(S#state{mi = MiNeu, lastworked = Now, timer = Newtimer});
-        {sendy,Y} ->
             Now = get_timestamp(),
             %% New Timer Setzten 
-            if (Timer == undefined) ->
-                Newtimer = spawn(fun() -> start_abstimmung(S) end);
+            if  (Timer == undefined) ->ok;
                 true ->
                 % timer killen
-                    exit(Timer, normal),
-                    Newtimer = spawn(fun() -> start_abstimmung(S) end)
+                    log(["Killing old timer in Mi"], Name),
+                    exit(Timer, normal)
             end,
+            log(["Starting new timer"], Name),
+            Self=self(),
+            Newtimer = spawn(fun() -> start_abstimmung(Self,Tzeit) end),
+            %% eventuell auslagern in eigene Loop, da nur zum Starten gebraucht
+            loop(S#state{mi = MiNeu, lastworked = Now, timer = Newtimer});
+        {sendy,Y} ->
+            log(["Got Y: ", Y],Name),
+            Now = get_timestamp(),
+            %% New Timer Setzten 
+            if (Timer == undefined) ->ok;
+                true ->
+                % timer killen
+                    log(["Killing old timer in Y"], Name),
+                    exit(Timer, normal)
+            end,
+            log(["Starting new timer"], Name),
+            Self=self(),
+            Newtimer = spawn(fun() -> start_abstimmung(Self,Tzeit) end),
         % timer starten -> spawn timer
             NewState = calc_ggt(S,Y),
             loop(NewState#state{lastworked = Now, timer = Newtimer});
@@ -86,6 +91,7 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
             %% mal gucken
             % Initiator wichtig. Wenn man selber startet, dann self() ansonsten durchreichen. Wenn Nachricht ankommt mit meinem Namen, dann Term senden -> Also abstimmung erfolgreich
             if Initiator == self() ->
+                log(["Got it from myself"], Name),
 				%% Init = Self -> Abstimmung erfogreich
 				case get_koordinator(S) of
 					{ok,KoordinatorPid} ->
@@ -97,19 +103,31 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
 				end;
 				%% Init != Self also Abstimmung eventuell weiter senden.
 				true ->
+                    log(["Got it from someone else"], Name),
 					Now = get_timestamp(),
-					if Now - Lastworked >= (Tzeit/2) ->
+                    TimeDiff = Now - Lastworked,
+					if TimeDiff >= (Tzeit/2) ->
 						%% Hier auch den Timer killen? 
-						exit(Timer, normal),
+                        log(["TimeDiff of ", TimeDiff, " big enough"],Name),
 						case get_right(S) of
 							{ok, Right} -> 
 								log(["Abstimmung yes, sending to Next One"], Name),
 								Right ! {abstimmung,Initiator};
 							{error, Reason} -> log(["ERROR in Abstimmung: ", Reason], Name)
-						end
+						end;
+                        true ->
+                           log(["TimeDiff of ", TimeDiff, " NOT big enough"],Name)
 					end
             end,
             loop(S);
+        start_abstimmung ->
+            case get_right(S) of
+							{ok, Right} -> 
+								log(["ABSTIMMUNG start"], Name),
+								Right ! {abstimmung,self()};
+							{error, Reason} -> log(["ERROR in Abstimmung: ", Reason], Name)
+            end,
+            loop(S#state{timer = undefined});
         {tellmi,From} ->
             log(["Tellmi to: ", From],Name),
             From ! Mi,
@@ -137,16 +155,19 @@ calc_ggt(S = #state{vzeit = Vzeit, mi = Mi, name = Name}, Y) when Y < Mi->
 			log(["Sending Y: ", NewMi, " to Right"],Name),
 			RightPid ! {sendy, NewMi};
 		{error, ReasonRight} ->
-			log(["ERROR: get_left ", ReasonRight], Name)
+			log(["ERROR: get_right ", ReasonRight], Name)
 	end,
 	case get_koordinator(S) of
 		{ok,KoordinatorPid} ->
-			KoordinatorPid ! {briefmi, Name};
+            log(["BriefMi to Koord: ", NewMi], Name),
+			KoordinatorPid ! {briefmi, {Name, NewMi, werkzeug:timeMilliSecond()}};
 		{error,ReasonKoord} -> 
 			log(["ERROR: get_koordinator ", ReasonKoord], Name)
 	end,
     S#state{mi = NewMi};
-calc_ggt(S,_) -> S.
+calc_ggt(S = #state{name = Name, mi = Mi},Y) -> 
+    log(["New Y: " ,Y, " >= Mi: ", Mi], Name),
+    S.
 
 get_name(A,B,C,D) -> erlang:list_to_atom(lists:concat([A,B,C,D])).
 
@@ -174,21 +195,23 @@ get_left(S = #state{left = Left}) ->
     
 get_dienst(S = #state{nameservicenode = Nameservicenode, name = Name}, Dienstname) -> 
     log(["Trying to get Nameservice: ", Nameservicenode],Name),
-    
-    %% Wie hier state reinbekommen?!?!?!?
     case get_nameservice(S) of 
         {ok, Nameservice} ->
             log(["Got Nameservice, trying to contact it for: ", Dienstname], Name),
             Nameservice ! {self(),{lookup,Dienstname}},
             receive
+                Dienst={NameOfService,Node} when is_atom(NameOfService) and is_atom(Node) -> 
+                    log([Dienstname," found, Name: ", NameOfService, " Node: ",Node], Name),
+                    {ok,Dienst};
                 not_found ->
                     log(["ERROR: ",Dienstname," not found"], Name),
                     {error,no_koordinator};
                 kill ->
-                    terminate(Name);
-                Dienst -> 
-                    log([Dienstname," found"], Name),
-                    {ok,Dienst}
+                    terminate(Name)
+                
+           %     _Any ->
+            %        log(["Nameservice send CRAP"],Name),
+           %         {error,nameservice_crap}
             end;
         {error, Reason} ->
             log(["ERROR Nameservice: ", Nameservicenode, " not found"], name),
@@ -200,19 +223,18 @@ log(Nachricht,Name) ->
     werkzeug:logging(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
     
 terminate(Name) -> 
-    log("Killed", Name),
+    log(["Killed"], Name),
     exit(normal).
        
-start_abstimmung(S = #state{name = Name, tzeit = Tzeit}) ->
+start_abstimmung(GGT, Tzeit) ->
     timer:sleep(Tzeit* 1000),
-    case get_right(S) of
-        {ok, Right} ->
-			log(["ABSTIMMUNG: Sending abtimmung? to Right"], Name),
-            Right ! {abstimmung,self()};
-        {error, Reason} ->
-            log(["Abstimmung Error: ", Reason], Name),
-            terminate(Name)
-    end.
+ %   case get_dienst(S, Name) of
+ %       {ok, Self} ->
+            GGT ! start_abstimmung.
+ %       {error, Reason} ->
+%            log(["Abstimmung Error: ", Reason], Name),
+%            terminate(Name)
+%    end.
     
         
     

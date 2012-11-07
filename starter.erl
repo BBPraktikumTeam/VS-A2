@@ -71,7 +71,7 @@ get_koordinator(S=#state{koordinatorname=Koordinatorname,nameservicenode=Nameser
 		    {error,no_koordinator};
 		kill ->
 		    terminate(S);
-		Koordinator={_,_} -> 
+		Koordinator={NameOfService,Node} when is_atom(NameOfService) and is_atom(Node) -> 
 		    log("Found koordinator",Starternr),
 		    {ok,Koordinator}
 	    end
