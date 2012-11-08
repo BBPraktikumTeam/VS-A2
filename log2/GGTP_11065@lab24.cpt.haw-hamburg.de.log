@@ -1,0 +1,1442 @@
+08.11 11:20:05,067|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:20:05,067|11065: Sende Nachricht an Nameservicenode: ns@lab30.cpt.haw-hamburg.de
+08.11 11:20:05,069|11065: Nachricht an Nameservicenode gesendet
+08.11 11:20:05,073|11065: Bind done
+08.11 11:20:05,074|11065: Get Koordinator -> Get Dienst
+08.11 11:20:05,074|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:20:05,080|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:20:05,081|11065: Got Nameservice, trying to contact it for: chef
+08.11 11:20:05,085|11065: chef found, Name: chef Node: ko@lab22.cpt.haw-hamburg.de
+08.11 11:20:05,086|11065: Sende Nachricht an Koordinator: chef
+08.11 11:20:05,086|11065: warte auf Nachbarmessage vom Koordinator
+08.11 11:21:06,814|11065: Neighbors set. Left: 11681 Right: 11531|starting loop
+08.11 11:21:12,689|11065: Starting with MI: 1685036925
+08.11 11:21:12,690|11065: Starting new timer
+08.11 11:21:15,705|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,711|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,711|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,741|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,742|11065: ABSTIMMUNG start
+08.11 11:21:15,745|11065: Got Abstimmung
+08.11 11:21:15,745|11065: Got it from someone else
+08.11 11:21:15,746|11065: TimeDiff of 3 big enough
+08.11 11:21:15,747|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,753|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,753|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,759|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,760|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,770|11065: Got Abstimmung
+08.11 11:21:15,771|11065: Got it from someone else
+08.11 11:21:15,771|11065: TimeDiff of 3 big enough
+08.11 11:21:15,772|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,781|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,781|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,792|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,793|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,832|11065: Got Abstimmung
+08.11 11:21:15,833|11065: Got it from someone else
+08.11 11:21:15,834|11065: TimeDiff of 3 big enough
+08.11 11:21:15,836|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,843|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,843|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,849|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,850|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,869|11065: Got Abstimmung
+08.11 11:21:15,871|11065: Got it from someone else
+08.11 11:21:15,871|11065: TimeDiff of 3 big enough
+08.11 11:21:15,872|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,878|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,879|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,884|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,884|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,947|11065: Got Abstimmung
+08.11 11:21:15,947|11065: Got it from someone else
+08.11 11:21:15,948|11065: TimeDiff of 3 big enough
+08.11 11:21:15,949|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,030|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,033|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,085|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,089|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,092|11065: Got Abstimmung
+08.11 11:21:15,095|11065: Got it from someone else
+08.11 11:21:15,095|11065: TimeDiff of 3 big enough
+08.11 11:21:15,096|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,206|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,207|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,625|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,626|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,626|11065: Got Abstimmung
+08.11 11:21:15,627|11065: Got it from someone else
+08.11 11:21:15,628|11065: TimeDiff of 3 big enough
+08.11 11:21:15,628|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,763|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,763|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,903|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,905|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,908|11065: Got Abstimmung
+08.11 11:21:15,910|11065: Got it from someone else
+08.11 11:21:15,917|11065: TimeDiff of 3 big enough
+08.11 11:21:15,917|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,022|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,022|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,289|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,290|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,290|11065: Got Abstimmung
+08.11 11:21:15,291|11065: Got it from someone else
+08.11 11:21:15,291|11065: TimeDiff of 3 big enough
+08.11 11:21:15,292|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,402|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,406|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,574|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,577|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,585|11065: Got Abstimmung
+08.11 11:21:15,586|11065: Got it from someone else
+08.11 11:21:15,587|11065: TimeDiff of 3 big enough
+08.11 11:21:15,598|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,811|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,812|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,962|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,963|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,965|11065: Got Abstimmung
+08.11 11:21:15,966|11065: Got it from someone else
+08.11 11:21:15,966|11065: TimeDiff of 3 big enough
+08.11 11:21:15,967|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,003|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,006|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,018|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,018|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,027|11065: Got Abstimmung
+08.11 11:21:15,028|11065: Got it from someone else
+08.11 11:21:15,029|11065: TimeDiff of 3 big enough
+08.11 11:21:15,029|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,105|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,106|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,111|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,113|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,117|11065: Got Abstimmung
+08.11 11:21:15,118|11065: Got it from someone else
+08.11 11:21:15,119|11065: TimeDiff of 3 big enough
+08.11 11:21:15,119|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,138|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,143|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,153|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,157|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,159|11065: Got Abstimmung
+08.11 11:21:15,162|11065: Got it from someone else
+08.11 11:21:15,163|11065: TimeDiff of 3 big enough
+08.11 11:21:15,165|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,187|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,188|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,193|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,194|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,227|11065: Got Abstimmung
+08.11 11:21:15,227|11065: Got it from someone else
+08.11 11:21:15,228|11065: TimeDiff of 3 big enough
+08.11 11:21:15,229|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,234|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,234|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,246|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,247|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,411|11065: Got Abstimmung
+08.11 11:21:15,412|11065: Got it from someone else
+08.11 11:21:15,413|11065: TimeDiff of 3 big enough
+08.11 11:21:15,413|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,437|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,439|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,516|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,519|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,578|11065: Got Abstimmung
+08.11 11:21:15,580|11065: Got it from someone else
+08.11 11:21:15,581|11065: TimeDiff of 3 big enough
+08.11 11:21:15,582|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,596|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,599|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,656|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,657|11065: Abstimmung yes, sending to Next One
+08.11 11:21:15,570|11065: Got Y: 585
+08.11 11:21:15,571|11065: Starting new timer
+08.11 11:21:15,572|11065: Caculating new MI: 585 Y: 585
+08.11 11:21:15,611|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,690|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,691|11065: Got Nameservice, trying to contact it for: 11681
+08.11 11:21:15,738|11065: 11681 found, Name: 11681 Node: starter@lab21.cpt.haw-hamburg.de
+08.11 11:21:15,739|11065: Sending Y: 585 to Left
+08.11 11:21:15,740|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,775|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,776|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:15,812|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:15,814|11065: Sending Y: 585 to Right
+08.11 11:21:15,814|11065: Get Koordinator -> Get Dienst
+08.11 11:21:15,815|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,854|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:15,857|11065: Got Nameservice, trying to contact it for: chef
+08.11 11:21:15,899|11065: chef found, Name: chef Node: ko@lab22.cpt.haw-hamburg.de
+08.11 11:21:15,900|11065: BriefMi to Koord: 585
+08.11 11:21:16,268|11065: Got Abstimmung
+08.11 11:21:16,269|11065: Got it from someone else
+08.11 11:21:16,269|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:16,877|11065: Got Abstimmung
+08.11 11:21:16,878|11065: Got it from someone else
+08.11 11:21:16,878|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:16,745|11065: Got Abstimmung
+08.11 11:21:16,745|11065: Got it from someone else
+08.11 11:21:16,746|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:16,196|11065: Got Abstimmung
+08.11 11:21:16,197|11065: Got it from someone else
+08.11 11:21:16,198|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:16,248|11065: Got Abstimmung
+08.11 11:21:16,248|11065: Got it from someone else
+08.11 11:21:16,249|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:16,848|11065: Got Abstimmung
+08.11 11:21:16,849|11065: Got it from someone else
+08.11 11:21:16,849|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:17,724|11065: Got Abstimmung
+08.11 11:21:17,725|11065: Got it from someone else
+08.11 11:21:17,725|11065: TimeDiff of 2 big enough
+08.11 11:21:17,726|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:17,768|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:17,770|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:17,810|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:17,811|11065: Abstimmung yes, sending to Next One
+08.11 11:21:17,781|11065: Got Abstimmung
+08.11 11:21:17,781|11065: Got it from someone else
+08.11 11:21:17,782|11065: TimeDiff of 2 big enough
+08.11 11:21:17,783|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:17,823|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:17,823|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:17,886|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:17,888|11065: Abstimmung yes, sending to Next One
+08.11 11:21:18,611|11065: Got Abstimmung
+08.11 11:21:18,612|11065: Got it from someone else
+08.11 11:21:18,614|11065: TimeDiff of 3 big enough
+08.11 11:21:18,633|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:18,707|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:18,708|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:18,734|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:18,734|11065: Abstimmung yes, sending to Next One
+08.11 11:21:18,037|11065: Got Abstimmung
+08.11 11:21:18,038|11065: Got it from someone else
+08.11 11:21:18,038|11065: TimeDiff of 3 big enough
+08.11 11:21:18,039|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:18,045|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:18,046|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:18,051|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:18,051|11065: Abstimmung yes, sending to Next One
+08.11 11:21:18,583|11065: Got Y: 548964
+08.11 11:21:18,583|11065: Killing old timer in Y
+08.11 11:21:18,584|11065: Starting new timer
+08.11 11:21:18,585|11065: New Y: 548964 >= Mi: 585
+08.11 11:21:18,585|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:18,617|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:18,618|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:18,664|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:18,665|11065: ABSTIMMUNG start
+08.11 11:21:19,706|11065: Got Abstimmung
+08.11 11:21:19,706|11065: Got it from someone else
+08.11 11:21:19,707|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:19,670|11065: Got Abstimmung
+08.11 11:21:19,671|11065: Got it from someone else
+08.11 11:21:19,672|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:19,516|11065: Got Y: 390
+08.11 11:21:19,516|11065: Starting new timer
+08.11 11:21:19,517|11065: Caculating new MI: 195 Y: 390
+08.11 11:21:19,550|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:19,617|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:19,618|11065: Got Nameservice, trying to contact it for: 11681
+08.11 11:21:19,660|11065: 11681 found, Name: 11681 Node: starter@lab21.cpt.haw-hamburg.de
+08.11 11:21:19,661|11065: Sending Y: 195 to Left
+08.11 11:21:19,662|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:19,736|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:19,737|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:19,768|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:19,771|11065: Sending Y: 195 to Right
+08.11 11:21:19,771|11065: Get Koordinator -> Get Dienst
+08.11 11:21:19,772|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:19,828|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:19,830|11065: Got Nameservice, trying to contact it for: chef
+08.11 11:21:19,883|11065: chef found, Name: chef Node: ko@lab22.cpt.haw-hamburg.de
+08.11 11:21:19,885|11065: BriefMi to Koord: 195
+08.11 11:21:19,054|11065: Got Abstimmung
+08.11 11:21:19,054|11065: Got it from someone else
+08.11 11:21:19,055|11065: TimeDiff of 0 NOT big enough
+08.11 11:21:21,591|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,597|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,598|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:21,607|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:21,608|11065: ABSTIMMUNG start
+08.11 11:21:21,609|11065: Got Y: 117
+08.11 11:21:21,610|11065: Starting new timer
+08.11 11:21:21,610|11065: Caculating new MI: 78 Y: 117
+08.11 11:21:21,650|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,658|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,658|11065: Got Nameservice, trying to contact it for: 11681
+08.11 11:21:21,686|11065: 11681 found, Name: 11681 Node: starter@lab21.cpt.haw-hamburg.de
+08.11 11:21:21,687|11065: Sending Y: 78 to Left
+08.11 11:21:21,688|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,694|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,695|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:21,700|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:21,701|11065: Sending Y: 78 to Right
+08.11 11:21:21,701|11065: Get Koordinator -> Get Dienst
+08.11 11:21:21,702|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,733|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:21,734|11065: Got Nameservice, trying to contact it for: chef
+08.11 11:21:21,738|11065: chef found, Name: chef Node: ko@lab22.cpt.haw-hamburg.de
+08.11 11:21:21,740|11065: BriefMi to Koord: 78
+08.11 11:21:22,520|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:22,531|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:22,532|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:22,535|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:22,536|11065: ABSTIMMUNG start
+08.11 11:21:22,067|11065: Got Abstimmung
+08.11 11:21:22,069|11065: Got it from someone else
+08.11 11:21:22,070|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:23,316|11065: Got Y: 195
+08.11 11:21:23,317|11065: Starting new timer
+08.11 11:21:23,318|11065: New Y: 195 >= Mi: 78
+08.11 11:21:24,621|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:24,628|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:24,628|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:24,655|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:24,656|11065: ABSTIMMUNG start
+08.11 11:21:24,657|11065: Got Y: 39
+08.11 11:21:24,657|11065: Starting new timer
+08.11 11:21:24,658|11065: Caculating new MI: 39 Y: 39
+08.11 11:21:24,713|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:24,719|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:24,719|11065: Got Nameservice, trying to contact it for: 11681
+08.11 11:21:24,724|11065: 11681 found, Name: 11681 Node: starter@lab21.cpt.haw-hamburg.de
+08.11 11:21:24,725|11065: Sending Y: 39 to Left
+08.11 11:21:24,725|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:24,829|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:24,830|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:25,786|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:25,867|11065: Sending Y: 39 to Right
+08.11 11:21:25,930|11065: Get Koordinator -> Get Dienst
+08.11 11:21:25,991|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:25,471|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:25,534|11065: Got Nameservice, trying to contact it for: chef
+08.11 11:21:25,656|11065: chef found, Name: chef Node: ko@lab22.cpt.haw-hamburg.de
+08.11 11:21:25,673|11065: BriefMi to Koord: 39
+08.11 11:21:26,330|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:26,337|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:26,337|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:26,343|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:26,343|11065: ABSTIMMUNG start
+08.11 11:21:27,663|11065: Got Y: 16146
+08.11 11:21:27,664|11065: Starting new timer
+08.11 11:21:27,665|11065: New Y: 16146 >= Mi: 39
+08.11 11:21:27,665|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:27,672|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:27,673|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:27,678|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:27,679|11065: ABSTIMMUNG start
+08.11 11:21:28,351|11065: Got Abstimmung
+08.11 11:21:28,352|11065: Got it from someone else
+08.11 11:21:28,353|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:28,865|11065: Got Abstimmung
+08.11 11:21:28,865|11065: Got it from someone else
+08.11 11:21:28,866|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:29,598|11065: Got Abstimmung
+08.11 11:21:29,604|11065: Got it from someone else
+08.11 11:21:29,613|11065: TimeDiff of 2 big enough
+08.11 11:21:29,619|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,745|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,793|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:29,079|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:29,111|11065: Abstimmung yes, sending to Next One
+08.11 11:21:29,012|11065: Got Abstimmung
+08.11 11:21:29,013|11065: Got it from someone else
+08.11 11:21:29,014|11065: TimeDiff of 2 big enough
+08.11 11:21:29,014|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,037|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,038|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:29,041|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:29,042|11065: Abstimmung yes, sending to Next One
+08.11 11:21:29,964|11065: Got Abstimmung
+08.11 11:21:29,964|11065: Got it from someone else
+08.11 11:21:29,965|11065: TimeDiff of 2 big enough
+08.11 11:21:29,966|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,988|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,989|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:29,011|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:29,012|11065: Abstimmung yes, sending to Next One
+08.11 11:21:29,261|11065: Got Abstimmung
+08.11 11:21:29,262|11065: Got it from someone else
+08.11 11:21:29,262|11065: TimeDiff of 2 big enough
+08.11 11:21:29,263|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,269|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,269|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:29,279|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:29,280|11065: Abstimmung yes, sending to Next One
+08.11 11:21:29,660|11065: Got Abstimmung
+08.11 11:21:29,661|11065: Got it from someone else
+08.11 11:21:29,662|11065: TimeDiff of 2 big enough
+08.11 11:21:29,662|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,668|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:29,668|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:29,693|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:29,694|11065: Abstimmung yes, sending to Next One
+08.11 11:21:30,880|11065: Got Y: 39
+08.11 11:21:30,881|11065: Starting new timer
+08.11 11:21:30,882|11065: New Y: 39 >= Mi: 39
+08.11 11:21:30,681|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:30,687|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:30,688|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:30,693|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:30,693|11065: ABSTIMMUNG start
+08.11 11:21:30,698|11065: Got Y: 39
+08.11 11:21:30,700|11065: Starting new timer
+08.11 11:21:30,701|11065: New Y: 39 >= Mi: 39
+08.11 11:21:33,977|11065: Got Abstimmung
+08.11 11:21:33,988|11065: Got it from someone else
+08.11 11:21:33,994|11065: TimeDiff of 3 big enough
+08.11 11:21:33,999|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,070|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,077|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:33,132|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:33,141|11065: Abstimmung yes, sending to Next One
+08.11 11:21:33,594|11065: Got Abstimmung
+08.11 11:21:33,595|11065: Got it from someone else
+08.11 11:21:33,595|11065: TimeDiff of 3 big enough
+08.11 11:21:33,599|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,633|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,634|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:33,639|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:33,639|11065: Abstimmung yes, sending to Next One
+08.11 11:21:33,913|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,919|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,920|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:33,926|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:33,927|11065: ABSTIMMUNG start
+08.11 11:21:33,741|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,748|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:33,750|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:33,757|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:33,757|11065: ABSTIMMUNG start
+08.11 11:21:33,758|11065: Got Y: 117
+08.11 11:21:33,759|11065: Starting new timer
+08.11 11:21:33,760|11065: New Y: 117 >= Mi: 39
+08.11 11:21:34,906|11065: Got Abstimmung
+08.11 11:21:34,908|11065: Got it from someone else
+08.11 11:21:34,909|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:34,987|11065: Got Abstimmung
+08.11 11:21:34,988|11065: Got it from someone else
+08.11 11:21:34,989|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:35,905|11065: Got Abstimmung
+08.11 11:21:35,920|11065: Got it from someone else
+08.11 11:21:35,926|11065: TimeDiff of 2 big enough
+08.11 11:21:35,953|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,002|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,003|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:35,120|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:35,121|11065: Abstimmung yes, sending to Next One
+08.11 11:21:35,779|11065: Got Abstimmung
+08.11 11:21:35,779|11065: Got it from someone else
+08.11 11:21:35,780|11065: TimeDiff of 2 big enough
+08.11 11:21:35,781|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,786|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,787|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:35,827|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:35,827|11065: Abstimmung yes, sending to Next One
+08.11 11:21:35,098|11065: Got Abstimmung
+08.11 11:21:35,099|11065: Got it from someone else
+08.11 11:21:35,100|11065: TimeDiff of 2 big enough
+08.11 11:21:35,100|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,105|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,107|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:35,189|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:35,190|11065: Abstimmung yes, sending to Next One
+08.11 11:21:35,822|11065: Got Abstimmung
+08.11 11:21:35,823|11065: Got it from someone else
+08.11 11:21:35,824|11065: TimeDiff of 2 big enough
+08.11 11:21:35,824|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,830|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,831|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:35,872|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:35,873|11065: Abstimmung yes, sending to Next One
+08.11 11:21:35,815|11065: Got Abstimmung
+08.11 11:21:35,815|11065: Got it from someone else
+08.11 11:21:35,816|11065: TimeDiff of 2 big enough
+08.11 11:21:35,816|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,821|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,822|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:35,832|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:35,833|11065: Abstimmung yes, sending to Next One
+08.11 11:21:35,978|11065: Got Abstimmung
+08.11 11:21:35,978|11065: Got it from someone else
+08.11 11:21:35,979|11065: TimeDiff of 2 big enough
+08.11 11:21:35,980|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,985|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,986|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:35,991|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:35,992|11065: Abstimmung yes, sending to Next One
+08.11 11:21:35,054|11065: Got Abstimmung
+08.11 11:21:35,057|11065: Got it from someone else
+08.11 11:21:35,057|11065: TimeDiff of 2 big enough
+08.11 11:21:35,058|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,091|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:35,093|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:35,099|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:35,100|11065: Abstimmung yes, sending to Next One
+08.11 11:21:36,490|11065: Got Abstimmung
+08.11 11:21:36,499|11065: Got it from someone else
+08.11 11:21:36,504|11065: TimeDiff of 3 big enough
+08.11 11:21:36,509|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,573|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,581|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,627|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,634|11065: Abstimmung yes, sending to Next One
+08.11 11:21:36,171|11065: Got Abstimmung
+08.11 11:21:36,172|11065: Got it from someone else
+08.11 11:21:36,172|11065: TimeDiff of 3 big enough
+08.11 11:21:36,173|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,178|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,179|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,232|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,232|11065: Abstimmung yes, sending to Next One
+08.11 11:21:36,359|11065: Got Abstimmung
+08.11 11:21:36,360|11065: Got it from someone else
+08.11 11:21:36,361|11065: TimeDiff of 3 big enough
+08.11 11:21:36,362|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,379|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,379|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,386|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,387|11065: Abstimmung yes, sending to Next One
+08.11 11:21:36,578|11065: Got Abstimmung
+08.11 11:21:36,580|11065: Got it from someone else
+08.11 11:21:36,581|11065: TimeDiff of 3 big enough
+08.11 11:21:36,585|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,644|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,645|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,649|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,650|11065: Abstimmung yes, sending to Next One
+08.11 11:21:36,270|11065: Got Abstimmung
+08.11 11:21:36,271|11065: Got it from someone else
+08.11 11:21:36,272|11065: TimeDiff of 3 big enough
+08.11 11:21:36,272|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,278|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,278|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,284|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,284|11065: Abstimmung yes, sending to Next One
+08.11 11:21:36,335|11065: Got Abstimmung
+08.11 11:21:36,336|11065: Got it from someone else
+08.11 11:21:36,337|11065: TimeDiff of 3 big enough
+08.11 11:21:36,337|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,343|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,344|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,365|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,366|11065: Abstimmung yes, sending to Next One
+08.11 11:21:36,780|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,792|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,793|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,796|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,797|11065: ABSTIMMUNG start
+08.11 11:21:36,799|11065: Got Abstimmung
+08.11 11:21:36,800|11065: Got it from someone else
+08.11 11:21:36,800|11065: TimeDiff of 3 big enough
+08.11 11:21:36,801|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,833|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:36,834|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:36,839|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:36,841|11065: Abstimmung yes, sending to Next One
+08.11 11:21:37,230|11065: Got Abstimmung
+08.11 11:21:37,231|11065: Got it from someone else
+08.11 11:21:37,231|11065: TimeDiff of 4 big enough
+08.11 11:21:37,232|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:37,238|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:37,239|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:37,245|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:37,246|11065: Abstimmung yes, sending to Next One
+08.11 11:21:37,707|11065: Got Abstimmung
+08.11 11:21:37,707|11065: Got it from someone else
+08.11 11:21:37,708|11065: TimeDiff of 4 big enough
+08.11 11:21:37,709|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:37,714|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:37,715|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:37,720|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:37,721|11065: Abstimmung yes, sending to Next One
+08.11 11:21:37,113|11065: Got Abstimmung
+08.11 11:21:37,114|11065: Got it from someone else
+08.11 11:21:37,115|11065: TimeDiff of 4 big enough
+08.11 11:21:37,115|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:37,120|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:37,121|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:37,126|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:37,127|11065: Abstimmung yes, sending to Next One
+08.11 11:21:38,829|11065: Got Abstimmung
+08.11 11:21:38,830|11065: Got it from someone else
+08.11 11:21:38,831|11065: TimeDiff of 5 big enough
+08.11 11:21:38,831|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:38,835|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:38,836|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:38,841|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:38,842|11065: Abstimmung yes, sending to Next One
+08.11 11:21:38,772|11065: Got Abstimmung
+08.11 11:21:38,774|11065: Got it from someone else
+08.11 11:21:38,774|11065: TimeDiff of 5 big enough
+08.11 11:21:38,775|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:38,782|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:38,783|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:38,789|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:38,790|11065: Abstimmung yes, sending to Next One
+08.11 11:21:42,516|11065: Got Abstimmung
+08.11 11:21:42,517|11065: Got it from someone else
+08.11 11:21:42,518|11065: TimeDiff of 9 big enough
+08.11 11:21:42,519|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:42,525|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:42,527|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:42,563|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:42,564|11065: Abstimmung yes, sending to Next One
+08.11 11:21:42,748|11065: Got Abstimmung
+08.11 11:21:42,749|11065: Got it from someone else
+08.11 11:21:42,750|11065: TimeDiff of 9 big enough
+08.11 11:21:42,750|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:42,762|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:42,763|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:42,768|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:42,769|11065: Abstimmung yes, sending to Next One
+08.11 11:21:43,203|11065: Got Y: 13
+08.11 11:21:43,210|11065: Starting new timer
+08.11 11:21:43,216|11065: Caculating new MI: 13 Y: 13
+08.11 11:21:43,628|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:43,035|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:43,036|11065: Got Nameservice, trying to contact it for: 11681
+08.11 11:21:43,044|11065: 11681 found, Name: 11681 Node: starter@lab21.cpt.haw-hamburg.de
+08.11 11:21:43,046|11065: Sending Y: 13 to Left
+08.11 11:21:43,049|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:43,690|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:43,691|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:43,988|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:43,995|11065: Sending Y: 13 to Right
+08.11 11:21:43,997|11065: Get Koordinator -> Get Dienst
+08.11 11:21:43,998|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:43,004|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:43,005|11065: Got Nameservice, trying to contact it for: chef
+08.11 11:21:43,010|11065: chef found, Name: chef Node: ko@lab22.cpt.haw-hamburg.de
+08.11 11:21:43,011|11065: BriefMi to Koord: 13
+08.11 11:21:43,775|11065: Got Abstimmung
+08.11 11:21:43,777|11065: Got it from someone else
+08.11 11:21:43,778|11065: TimeDiff of 0 NOT big enough
+08.11 11:21:44,592|11065: Got Abstimmung
+08.11 11:21:44,593|11065: Got it from someone else
+08.11 11:21:44,593|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:45,685|11065: Got Abstimmung
+08.11 11:21:45,685|11065: Got it from someone else
+08.11 11:21:45,686|11065: TimeDiff of 2 big enough
+08.11 11:21:45,686|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:45,693|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:45,694|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:45,715|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:45,715|11065: Abstimmung yes, sending to Next One
+08.11 11:21:46,661|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:46,730|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:46,736|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:46,793|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:46,801|11065: ABSTIMMUNG start
+08.11 11:21:46,037|11065: Got Y: 13
+08.11 11:21:46,038|11065: Starting new timer
+08.11 11:21:46,038|11065: New Y: 13 >= Mi: 13
+08.11 11:21:46,791|11065: Got Abstimmung
+08.11 11:21:46,792|11065: Got it from someone else
+08.11 11:21:46,796|11065: TimeDiff of 0 NOT big enough
+08.11 11:21:46,199|11065: Got Abstimmung
+08.11 11:21:46,199|11065: Got it from someone else
+08.11 11:21:46,200|11065: TimeDiff of 0 NOT big enough
+08.11 11:21:46,053|11065: Got Abstimmung
+08.11 11:21:46,054|11065: Got it from someone else
+08.11 11:21:46,054|11065: TimeDiff of 0 NOT big enough
+08.11 11:21:47,231|11065: Got Abstimmung
+08.11 11:21:47,232|11065: Got it from someone else
+08.11 11:21:47,232|11065: TimeDiff of 1 NOT big enough
+08.11 11:21:49,061|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:49,069|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:49,069|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:49,076|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:49,076|11065: ABSTIMMUNG start
+08.11 11:21:52,159|11065: Got Abstimmung
+08.11 11:21:52,160|11065: Got it from someone else
+08.11 11:21:52,161|11065: TimeDiff of 6 big enough
+08.11 11:21:52,161|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:52,167|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:52,168|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:52,173|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:52,174|11065: Abstimmung yes, sending to Next One
+08.11 11:21:52,842|11065: Got Abstimmung
+08.11 11:21:52,844|11065: Got it from someone else
+08.11 11:21:52,845|11065: TimeDiff of 6 big enough
+08.11 11:21:52,846|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:52,851|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:52,852|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:52,869|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:52,873|11065: Abstimmung yes, sending to Next One
+08.11 11:21:52,164|11065: Got Abstimmung
+08.11 11:21:52,165|11065: Got it from someone else
+08.11 11:21:52,165|11065: TimeDiff of 6 big enough
+08.11 11:21:52,166|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:52,172|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:52,173|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:52,178|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:52,179|11065: Abstimmung yes, sending to Next One
+08.11 11:21:53,036|11065: Got Abstimmung
+08.11 11:21:53,043|11065: Got it from someone else
+08.11 11:21:53,048|11065: TimeDiff of 7 big enough
+08.11 11:21:53,054|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:53,428|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:53,436|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:53,492|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:53,510|11065: Abstimmung yes, sending to Next One
+08.11 11:21:53,836|11065: Got Abstimmung
+08.11 11:21:53,837|11065: Got it from someone else
+08.11 11:21:53,838|11065: TimeDiff of 7 big enough
+08.11 11:21:53,838|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:53,846|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:53,847|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:53,850|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:53,851|11065: Abstimmung yes, sending to Next One
+08.11 11:21:54,515|11065: Got Abstimmung
+08.11 11:21:54,517|11065: Got it from someone else
+08.11 11:21:54,519|11065: TimeDiff of 8 big enough
+08.11 11:21:54,523|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:54,562|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:54,564|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:54,590|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:54,593|11065: Abstimmung yes, sending to Next One
+08.11 11:21:58,369|11065: Got Abstimmung
+08.11 11:21:58,370|11065: Got it from someone else
+08.11 11:21:58,370|11065: TimeDiff of 12 big enough
+08.11 11:21:58,371|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:58,376|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:21:58,377|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:21:58,382|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:21:58,382|11065: Abstimmung yes, sending to Next One
+08.11 11:22:00,399|11065: Got Abstimmung
+08.11 11:22:00,400|11065: Got it from someone else
+08.11 11:22:00,400|11065: TimeDiff of 14 big enough
+08.11 11:22:00,401|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:00,406|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:00,407|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:00,414|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:00,414|11065: Abstimmung yes, sending to Next One
+08.11 11:22:01,132|11065: Got Abstimmung
+08.11 11:22:01,134|11065: Got it from someone else
+08.11 11:22:01,135|11065: TimeDiff of 15 big enough
+08.11 11:22:01,139|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:01,146|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:01,147|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:01,152|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:01,152|11065: Abstimmung yes, sending to Next One
+08.11 11:22:02,477|11065: Got Abstimmung
+08.11 11:22:02,477|11065: Got it from someone else
+08.11 11:22:02,478|11065: TimeDiff of 16 big enough
+08.11 11:22:02,479|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:02,521|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:02,524|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:02,569|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:02,593|11065: Abstimmung yes, sending to Next One
+08.11 11:22:02,781|11065: Got Abstimmung
+08.11 11:22:02,781|11065: Got it from someone else
+08.11 11:22:02,782|11065: TimeDiff of 16 big enough
+08.11 11:22:02,783|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:02,790|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:02,791|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:02,818|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:02,819|11065: Abstimmung yes, sending to Next One
+08.11 11:22:03,511|11065: Got Abstimmung
+08.11 11:22:03,512|11065: Got it from someone else
+08.11 11:22:03,512|11065: TimeDiff of 17 big enough
+08.11 11:22:03,513|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:03,524|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:03,525|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:03,531|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:03,531|11065: Abstimmung yes, sending to Next One
+08.11 11:22:03,821|11065: Got Abstimmung
+08.11 11:22:03,822|11065: Got it from someone else
+08.11 11:22:03,823|11065: TimeDiff of 17 big enough
+08.11 11:22:03,823|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:03,829|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:03,829|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:03,834|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:03,835|11065: Abstimmung yes, sending to Next One
+08.11 11:22:04,283|11065: Got Abstimmung
+08.11 11:22:04,284|11065: Got it from someone else
+08.11 11:22:04,284|11065: TimeDiff of 18 big enough
+08.11 11:22:04,285|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:04,291|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:04,292|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:04,316|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:04,316|11065: Abstimmung yes, sending to Next One
+08.11 11:22:04,298|11065: Got Abstimmung
+08.11 11:22:04,298|11065: Got it from someone else
+08.11 11:22:04,299|11065: TimeDiff of 18 big enough
+08.11 11:22:04,300|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:04,307|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:04,308|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:04,312|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:04,314|11065: Abstimmung yes, sending to Next One
+08.11 11:22:05,841|11065: Got Abstimmung
+08.11 11:22:05,842|11065: Got it from someone else
+08.11 11:22:05,843|11065: TimeDiff of 19 big enough
+08.11 11:22:05,844|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:05,850|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:05,851|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:05,856|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:05,856|11065: Abstimmung yes, sending to Next One
+08.11 11:22:05,948|11065: Got Abstimmung
+08.11 11:22:05,949|11065: Got it from someone else
+08.11 11:22:05,949|11065: TimeDiff of 19 big enough
+08.11 11:22:05,950|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:05,955|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:05,956|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:05,961|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:05,962|11065: Abstimmung yes, sending to Next One
+08.11 11:22:07,620|11065: Got Abstimmung
+08.11 11:22:07,620|11065: Got it from someone else
+08.11 11:22:07,621|11065: TimeDiff of 21 big enough
+08.11 11:22:07,621|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:07,640|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:07,641|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:07,646|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:07,646|11065: Abstimmung yes, sending to Next One
+08.11 11:22:07,402|11065: Got Abstimmung
+08.11 11:22:07,402|11065: Got it from someone else
+08.11 11:22:07,403|11065: TimeDiff of 21 big enough
+08.11 11:22:07,403|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:07,442|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:07,443|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:07,447|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:07,448|11065: Abstimmung yes, sending to Next One
+08.11 11:22:07,031|11065: Got Abstimmung
+08.11 11:22:07,098|11065: Got it from someone else
+08.11 11:22:07,154|11065: TimeDiff of 22 big enough
+08.11 11:22:07,209|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:08,666|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:08,836|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:08,068|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:08,296|11065: Abstimmung yes, sending to Next One
+08.11 11:22:08,261|11065: Got Abstimmung
+08.11 11:22:08,262|11065: Got it from someone else
+08.11 11:22:08,262|11065: TimeDiff of 22 big enough
+08.11 11:22:08,263|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:08,270|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:08,271|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:08,277|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:08,278|11065: Abstimmung yes, sending to Next One
+08.11 11:22:08,876|11065: Got Abstimmung
+08.11 11:22:08,877|11065: Got it from someone else
+08.11 11:22:08,878|11065: TimeDiff of 22 big enough
+08.11 11:22:08,878|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:08,903|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:08,904|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:08,913|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:08,915|11065: Abstimmung yes, sending to Next One
+08.11 11:22:09,237|11065: Got Abstimmung
+08.11 11:22:09,239|11065: Got it from someone else
+08.11 11:22:09,240|11065: TimeDiff of 23 big enough
+08.11 11:22:09,241|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:09,246|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:09,247|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:09,252|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:09,253|11065: Abstimmung yes, sending to Next One
+08.11 11:22:09,972|11065: Got Abstimmung
+08.11 11:22:09,973|11065: Got it from someone else
+08.11 11:22:09,973|11065: TimeDiff of 23 big enough
+08.11 11:22:09,974|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:09,993|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:09,994|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:09,998|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:09,999|11065: Abstimmung yes, sending to Next One
+08.11 11:22:10,620|11065: Got Abstimmung
+08.11 11:22:10,620|11065: Got it from someone else
+08.11 11:22:10,621|11065: TimeDiff of 24 big enough
+08.11 11:22:10,622|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:10,629|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:10,630|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:10,657|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:10,657|11065: Abstimmung yes, sending to Next One
+08.11 11:22:11,032|11065: Got Abstimmung
+08.11 11:22:11,047|11065: Got it from someone else
+08.11 11:22:11,058|11065: TimeDiff of 25 big enough
+08.11 11:22:11,070|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:11,183|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:11,193|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:11,226|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:11,233|11065: Abstimmung yes, sending to Next One
+08.11 11:22:11,948|11065: Got Abstimmung
+08.11 11:22:11,950|11065: Got it from someone else
+08.11 11:22:11,951|11065: TimeDiff of 25 big enough
+08.11 11:22:11,952|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:11,958|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:11,959|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:11,964|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:11,965|11065: Abstimmung yes, sending to Next One
+08.11 11:22:12,078|11065: Got Abstimmung
+08.11 11:22:12,079|11065: Got it from someone else
+08.11 11:22:12,079|11065: TimeDiff of 26 big enough
+08.11 11:22:12,080|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:12,119|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:12,120|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:12,126|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:12,127|11065: Abstimmung yes, sending to Next One
+08.11 11:22:12,813|11065: Got Abstimmung
+08.11 11:22:12,814|11065: Got it from someone else
+08.11 11:22:12,815|11065: TimeDiff of 26 big enough
+08.11 11:22:12,815|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:12,823|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:12,823|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:12,828|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:12,829|11065: Abstimmung yes, sending to Next One
+08.11 11:22:13,497|11065: Got Abstimmung
+08.11 11:22:13,498|11065: Got it from someone else
+08.11 11:22:13,498|11065: TimeDiff of 27 big enough
+08.11 11:22:13,499|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:13,521|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:13,522|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:13,525|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:13,526|11065: Abstimmung yes, sending to Next One
+08.11 11:22:14,285|11065: Got Abstimmung
+08.11 11:22:14,286|11065: Got it from someone else
+08.11 11:22:14,287|11065: TimeDiff of 28 big enough
+08.11 11:22:14,287|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:14,316|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:14,317|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:14,324|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:14,326|11065: Abstimmung yes, sending to Next One
+08.11 11:22:15,677|11065: Got Abstimmung
+08.11 11:22:15,678|11065: Got it from someone else
+08.11 11:22:15,679|11065: TimeDiff of 29 big enough
+08.11 11:22:15,679|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:15,685|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:15,685|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:15,710|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:15,711|11065: Abstimmung yes, sending to Next One
+08.11 11:22:16,674|11065: Got Abstimmung
+08.11 11:22:16,680|11065: Got it from someone else
+08.11 11:22:16,686|11065: TimeDiff of 30 big enough
+08.11 11:22:16,692|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:16,786|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:16,801|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:16,841|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:16,854|11065: Abstimmung yes, sending to Next One
+08.11 11:22:16,357|11065: Got Abstimmung
+08.11 11:22:16,358|11065: Got it from someone else
+08.11 11:22:16,359|11065: TimeDiff of 30 big enough
+08.11 11:22:16,360|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:16,370|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:16,371|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:16,378|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:16,379|11065: Abstimmung yes, sending to Next One
+08.11 11:22:17,427|11065: Got Abstimmung
+08.11 11:22:17,427|11065: Got it from someone else
+08.11 11:22:17,428|11065: TimeDiff of 31 big enough
+08.11 11:22:17,429|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:17,434|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:17,436|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:17,441|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:17,442|11065: Abstimmung yes, sending to Next One
+08.11 11:22:17,760|11065: Got Abstimmung
+08.11 11:22:17,761|11065: Got it from someone else
+08.11 11:22:17,762|11065: TimeDiff of 31 big enough
+08.11 11:22:17,762|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:17,770|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:17,770|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:17,796|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:17,796|11065: Abstimmung yes, sending to Next One
+08.11 11:22:18,243|11065: Got Abstimmung
+08.11 11:22:18,244|11065: Got it from someone else
+08.11 11:22:18,245|11065: TimeDiff of 32 big enough
+08.11 11:22:18,246|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:18,251|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:18,251|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:18,257|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:18,258|11065: Abstimmung yes, sending to Next One
+08.11 11:22:21,019|11065: Got Abstimmung
+08.11 11:22:21,020|11065: Got it from someone else
+08.11 11:22:21,021|11065: TimeDiff of 35 big enough
+08.11 11:22:21,022|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:21,029|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:21,030|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:21,044|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:21,045|11065: Abstimmung yes, sending to Next One
+08.11 11:22:22,722|11065: Got Abstimmung
+08.11 11:22:22,723|11065: Got it from someone else
+08.11 11:22:22,724|11065: TimeDiff of 36 big enough
+08.11 11:22:22,725|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:22,731|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:22,732|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:22,737|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:22,738|11065: Abstimmung yes, sending to Next One
+08.11 11:22:24,027|11065: Got Abstimmung
+08.11 11:22:24,035|11065: Got it from someone else
+08.11 11:22:24,042|11065: TimeDiff of 38 big enough
+08.11 11:22:24,048|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:24,109|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:22:24,115|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:22:24,370|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:22:24,376|11065: Abstimmung yes, sending to Next One
+08.11 11:24:02,253|11065: Starting with MI: 81627
+08.11 11:24:02,260|11065: Starting new timer
+08.11 11:24:05,194|11065: Got Abstimmung
+08.11 11:24:05,200|11065: Got it from someone else
+08.11 11:24:05,207|11065: TimeDiff of 3 big enough
+08.11 11:24:05,213|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,450|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,456|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,334|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,340|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,347|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,971|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,981|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,548|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,554|11065: ABSTIMMUNG start
+08.11 11:24:05,193|11065: Got Abstimmung
+08.11 11:24:05,202|11065: Got it from someone else
+08.11 11:24:05,215|11065: TimeDiff of 3 big enough
+08.11 11:24:05,227|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,701|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,707|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,976|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,982|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,293|11065: Got Abstimmung
+08.11 11:24:05,301|11065: Got it from someone else
+08.11 11:24:05,312|11065: TimeDiff of 3 big enough
+08.11 11:24:05,320|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,005|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,011|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,617|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,624|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,640|11065: Got Abstimmung
+08.11 11:24:05,645|11065: Got it from someone else
+08.11 11:24:05,663|11065: TimeDiff of 3 big enough
+08.11 11:24:05,669|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,857|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,863|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,700|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,707|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,717|11065: Got Abstimmung
+08.11 11:24:05,724|11065: Got it from someone else
+08.11 11:24:05,729|11065: TimeDiff of 3 big enough
+08.11 11:24:05,735|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,010|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,011|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,105|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,105|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,161|11065: Got Abstimmung
+08.11 11:24:05,161|11065: Got it from someone else
+08.11 11:24:05,162|11065: TimeDiff of 3 big enough
+08.11 11:24:05,162|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,215|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,216|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,234|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,237|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,574|11065: Got Abstimmung
+08.11 11:24:05,575|11065: Got it from someone else
+08.11 11:24:05,576|11065: TimeDiff of 3 big enough
+08.11 11:24:05,576|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,608|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,609|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,660|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,661|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,427|11065: Got Abstimmung
+08.11 11:24:05,428|11065: Got it from someone else
+08.11 11:24:05,428|11065: TimeDiff of 3 big enough
+08.11 11:24:05,429|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,435|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,436|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,442|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,442|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,313|11065: Got Abstimmung
+08.11 11:24:05,313|11065: Got it from someone else
+08.11 11:24:05,314|11065: TimeDiff of 3 big enough
+08.11 11:24:05,315|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,360|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,361|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,412|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,413|11065: Abstimmung yes, sending to Next One
+08.11 11:24:05,825|11065: Got Abstimmung
+08.11 11:24:05,826|11065: Got it from someone else
+08.11 11:24:05,826|11065: TimeDiff of 3 big enough
+08.11 11:24:05,827|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,848|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:05,851|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:05,896|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:05,901|11065: Abstimmung yes, sending to Next One
+08.11 11:24:06,700|11065: Got Abstimmung
+08.11 11:24:06,722|11065: Got it from someone else
+08.11 11:24:06,728|11065: TimeDiff of 4 big enough
+08.11 11:24:06,739|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:06,587|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:06,594|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:06,951|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:06,959|11065: Abstimmung yes, sending to Next One
+08.11 11:24:09,313|11065: Got Abstimmung
+08.11 11:24:09,314|11065: Got it from someone else
+08.11 11:24:09,315|11065: TimeDiff of 7 big enough
+08.11 11:24:09,316|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:09,322|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:09,323|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:09,328|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:09,329|11065: Abstimmung yes, sending to Next One
+08.11 11:24:10,999|11065: Got Abstimmung
+08.11 11:24:10,001|11065: Got it from someone else
+08.11 11:24:10,002|11065: TimeDiff of 8 big enough
+08.11 11:24:10,003|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:10,007|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:10,009|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:10,014|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:10,015|11065: Abstimmung yes, sending to Next One
+08.11 11:24:12,250|11065: Got Abstimmung
+08.11 11:24:12,251|11065: Got it from someone else
+08.11 11:24:12,252|11065: TimeDiff of 10 big enough
+08.11 11:24:12,252|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:12,259|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:12,260|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:12,264|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:12,265|11065: Abstimmung yes, sending to Next One
+08.11 11:24:12,519|11065: Got Abstimmung
+08.11 11:24:12,521|11065: Got it from someone else
+08.11 11:24:12,522|11065: TimeDiff of 10 big enough
+08.11 11:24:12,526|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:12,550|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:12,551|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:12,556|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:12,557|11065: Abstimmung yes, sending to Next One
+08.11 11:24:15,418|11065: Got Abstimmung
+08.11 11:24:15,419|11065: Got it from someone else
+08.11 11:24:15,419|11065: TimeDiff of 13 big enough
+08.11 11:24:15,419|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:15,425|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:15,426|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:15,432|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:15,433|11065: Abstimmung yes, sending to Next One
+08.11 11:24:15,156|11065: Got Abstimmung
+08.11 11:24:15,156|11065: Got it from someone else
+08.11 11:24:15,157|11065: TimeDiff of 13 big enough
+08.11 11:24:15,157|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:15,163|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:15,164|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:15,170|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:15,172|11065: Abstimmung yes, sending to Next One
+08.11 11:24:18,294|11065: Got Abstimmung
+08.11 11:24:18,295|11065: Got it from someone else
+08.11 11:24:18,296|11065: TimeDiff of 16 big enough
+08.11 11:24:18,296|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:18,302|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:18,303|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:18,308|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:18,309|11065: Abstimmung yes, sending to Next One
+08.11 11:24:18,179|11065: Got Abstimmung
+08.11 11:24:18,180|11065: Got it from someone else
+08.11 11:24:18,181|11065: TimeDiff of 16 big enough
+08.11 11:24:18,182|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:18,189|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:18,190|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:18,197|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:18,198|11065: Abstimmung yes, sending to Next One
+08.11 11:24:20,115|11065: Got Abstimmung
+08.11 11:24:20,115|11065: Got it from someone else
+08.11 11:24:20,116|11065: TimeDiff of 18 big enough
+08.11 11:24:20,117|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:20,126|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:20,128|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:20,171|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:20,172|11065: Abstimmung yes, sending to Next One
+08.11 11:24:20,152|11065: Got Abstimmung
+08.11 11:24:20,152|11065: Got it from someone else
+08.11 11:24:20,154|11065: TimeDiff of 18 big enough
+08.11 11:24:20,155|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:20,162|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:20,163|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:20,169|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:20,170|11065: Abstimmung yes, sending to Next One
+08.11 11:24:24,062|11065: Got Abstimmung
+08.11 11:24:24,063|11065: Got it from someone else
+08.11 11:24:24,063|11065: TimeDiff of 22 big enough
+08.11 11:24:24,064|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:24,124|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:24,127|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:24,183|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:24,185|11065: Abstimmung yes, sending to Next One
+08.11 11:24:25,635|11065: Got Abstimmung
+08.11 11:24:25,636|11065: Got it from someone else
+08.11 11:24:25,637|11065: TimeDiff of 23 big enough
+08.11 11:24:25,637|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:25,642|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:25,643|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:25,648|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:25,648|11065: Abstimmung yes, sending to Next One
+08.11 11:24:26,131|11065: Got Abstimmung
+08.11 11:24:26,132|11065: Got it from someone else
+08.11 11:24:26,132|11065: TimeDiff of 24 big enough
+08.11 11:24:26,133|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,167|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,170|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:26,209|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:26,232|11065: Abstimmung yes, sending to Next One
+08.11 11:24:26,563|11065: Got Abstimmung
+08.11 11:24:26,563|11065: Got it from someone else
+08.11 11:24:26,564|11065: TimeDiff of 24 big enough
+08.11 11:24:26,565|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,570|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,570|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:26,576|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:26,576|11065: Abstimmung yes, sending to Next One
+08.11 11:24:26,766|11065: Got Abstimmung
+08.11 11:24:26,767|11065: Got it from someone else
+08.11 11:24:26,768|11065: TimeDiff of 24 big enough
+08.11 11:24:26,768|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,778|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,779|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:26,785|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:26,786|11065: Abstimmung yes, sending to Next One
+08.11 11:24:26,219|11065: Got Abstimmung
+08.11 11:24:26,220|11065: Got it from someone else
+08.11 11:24:26,221|11065: TimeDiff of 24 big enough
+08.11 11:24:26,221|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,227|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:26,228|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:26,283|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:26,286|11065: Abstimmung yes, sending to Next One
+08.11 11:24:28,195|11065: Got Abstimmung
+08.11 11:24:28,195|11065: Got it from someone else
+08.11 11:24:28,196|11065: TimeDiff of 26 big enough
+08.11 11:24:28,196|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:28,212|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:28,213|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:28,218|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:28,219|11065: Abstimmung yes, sending to Next One
+08.11 11:24:28,534|11065: Got Abstimmung
+08.11 11:24:28,535|11065: Got it from someone else
+08.11 11:24:28,536|11065: TimeDiff of 26 big enough
+08.11 11:24:28,536|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:28,544|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:28,545|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:28,591|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:28,592|11065: Abstimmung yes, sending to Next One
+08.11 11:24:29,195|11065: Got Abstimmung
+08.11 11:24:29,196|11065: Got it from someone else
+08.11 11:24:29,196|11065: TimeDiff of 27 big enough
+08.11 11:24:29,197|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,204|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,206|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:29,265|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:29,271|11065: Abstimmung yes, sending to Next One
+08.11 11:24:29,900|11065: Got Abstimmung
+08.11 11:24:29,901|11065: Got it from someone else
+08.11 11:24:29,902|11065: TimeDiff of 27 big enough
+08.11 11:24:29,902|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,908|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,909|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:29,914|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:29,915|11065: Abstimmung yes, sending to Next One
+08.11 11:24:29,038|11065: Got Abstimmung
+08.11 11:24:29,039|11065: Got it from someone else
+08.11 11:24:29,040|11065: TimeDiff of 27 big enough
+08.11 11:24:29,047|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,106|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,109|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:29,149|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:29,152|11065: Abstimmung yes, sending to Next One
+08.11 11:24:29,261|11065: Got Abstimmung
+08.11 11:24:29,261|11065: Got it from someone else
+08.11 11:24:29,262|11065: TimeDiff of 27 big enough
+08.11 11:24:29,262|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,275|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,276|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:29,279|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:29,280|11065: Abstimmung yes, sending to Next One
+08.11 11:24:29,756|11065: Got Abstimmung
+08.11 11:24:29,757|11065: Got it from someone else
+08.11 11:24:29,758|11065: TimeDiff of 27 big enough
+08.11 11:24:29,759|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,804|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:29,805|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:29,840|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:29,841|11065: Abstimmung yes, sending to Next One
+08.11 11:24:30,209|11065: Got Abstimmung
+08.11 11:24:30,210|11065: Got it from someone else
+08.11 11:24:30,210|11065: TimeDiff of 28 big enough
+08.11 11:24:30,211|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,218|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,219|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:30,240|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:30,241|11065: Abstimmung yes, sending to Next One
+08.11 11:24:30,254|11065: Got Abstimmung
+08.11 11:24:30,255|11065: Got it from someone else
+08.11 11:24:30,255|11065: TimeDiff of 28 big enough
+08.11 11:24:30,256|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,274|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,274|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:30,305|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:30,306|11065: Abstimmung yes, sending to Next One
+08.11 11:24:30,337|11065: Got Abstimmung
+08.11 11:24:30,339|11065: Got it from someone else
+08.11 11:24:30,343|11065: TimeDiff of 28 big enough
+08.11 11:24:30,375|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,383|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,384|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:30,438|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:30,440|11065: Abstimmung yes, sending to Next One
+08.11 11:24:30,966|11065: Got Abstimmung
+08.11 11:24:30,967|11065: Got it from someone else
+08.11 11:24:30,968|11065: TimeDiff of 28 big enough
+08.11 11:24:30,969|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,992|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:30,993|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:30,997|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:30,997|11065: Abstimmung yes, sending to Next One
+08.11 11:24:31,080|11065: Got Abstimmung
+08.11 11:24:31,083|11065: Got it from someone else
+08.11 11:24:31,084|11065: TimeDiff of 29 big enough
+08.11 11:24:31,087|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:31,115|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:31,115|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:31,160|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:31,162|11065: Abstimmung yes, sending to Next One
+08.11 11:24:37,061|11065: Got Abstimmung
+08.11 11:24:37,062|11065: Got it from someone else
+08.11 11:24:37,063|11065: TimeDiff of 35 big enough
+08.11 11:24:37,063|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:37,069|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:37,070|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:37,075|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:37,075|11065: Abstimmung yes, sending to Next One
+08.11 11:24:37,067|11065: Got Abstimmung
+08.11 11:24:37,068|11065: Got it from someone else
+08.11 11:24:37,068|11065: TimeDiff of 35 big enough
+08.11 11:24:37,069|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:37,075|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:37,076|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:37,081|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:37,082|11065: Abstimmung yes, sending to Next One
+08.11 11:24:39,516|11065: Got Abstimmung
+08.11 11:24:39,517|11065: Got it from someone else
+08.11 11:24:39,518|11065: TimeDiff of 37 big enough
+08.11 11:24:39,518|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:39,540|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:39,541|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:39,544|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:39,545|11065: Abstimmung yes, sending to Next One
+08.11 11:24:45,727|11065: Got Abstimmung
+08.11 11:24:45,820|11065: Got it from someone else
+08.11 11:24:45,884|11065: TimeDiff of 43 big enough
+08.11 11:24:45,938|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:45,139|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:45,174|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:45,525|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:45,550|11065: Abstimmung yes, sending to Next One
+08.11 11:24:46,134|11065: Got Abstimmung
+08.11 11:24:46,138|11065: Got it from someone else
+08.11 11:24:46,140|11065: TimeDiff of 44 big enough
+08.11 11:24:46,141|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:46,206|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:46,207|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:46,211|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:46,212|11065: Abstimmung yes, sending to Next One
+08.11 11:24:46,655|11065: Got Abstimmung
+08.11 11:24:46,655|11065: Got it from someone else
+08.11 11:24:46,656|11065: TimeDiff of 44 big enough
+08.11 11:24:46,657|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:46,686|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:46,687|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:46,697|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:46,700|11065: Abstimmung yes, sending to Next One
+08.11 11:24:47,127|11065: Got Abstimmung
+08.11 11:24:47,128|11065: Got it from someone else
+08.11 11:24:47,129|11065: TimeDiff of 45 big enough
+08.11 11:24:47,129|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:47,136|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:47,137|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:47,143|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:47,144|11065: Abstimmung yes, sending to Next One
+08.11 11:24:48,534|11065: Got Abstimmung
+08.11 11:24:48,535|11065: Got it from someone else
+08.11 11:24:48,535|11065: TimeDiff of 46 big enough
+08.11 11:24:48,536|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:48,567|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:48,568|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:48,596|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:48,600|11065: Abstimmung yes, sending to Next One
+08.11 11:24:52,455|11065: Got Abstimmung
+08.11 11:24:52,456|11065: Got it from someone else
+08.11 11:24:52,457|11065: TimeDiff of 50 big enough
+08.11 11:24:52,457|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:52,463|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:52,464|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:52,471|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:52,472|11065: Abstimmung yes, sending to Next One
+08.11 11:24:52,279|11065: Got Abstimmung
+08.11 11:24:52,280|11065: Got it from someone else
+08.11 11:24:52,281|11065: TimeDiff of 50 big enough
+08.11 11:24:52,281|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:52,289|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:52,290|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:52,294|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:52,295|11065: Abstimmung yes, sending to Next One
+08.11 11:24:53,530|11065: Got Abstimmung
+08.11 11:24:53,533|11065: Got it from someone else
+08.11 11:24:53,534|11065: TimeDiff of 51 big enough
+08.11 11:24:53,537|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:53,027|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:53,030|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:53,142|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:53,144|11065: Abstimmung yes, sending to Next One
+08.11 11:24:54,004|11065: Got Abstimmung
+08.11 11:24:54,019|11065: Got it from someone else
+08.11 11:24:54,026|11065: TimeDiff of 52 big enough
+08.11 11:24:54,032|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:54,089|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:24:54,105|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:24:54,165|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:24:54,173|11065: Abstimmung yes, sending to Next One
+08.11 11:25:04,359|11065: Got Abstimmung
+08.11 11:25:04,392|11065: Got it from someone else
+08.11 11:25:04,414|11065: TimeDiff of 62 big enough
+08.11 11:25:04,427|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:04,045|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:04,073|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:25:04,129|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:25:04,135|11065: Abstimmung yes, sending to Next One
+08.11 11:25:04,865|11065: Got Abstimmung
+08.11 11:25:04,866|11065: Got it from someone else
+08.11 11:25:04,866|11065: TimeDiff of 62 big enough
+08.11 11:25:04,867|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:04,873|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:04,874|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:25:04,898|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:25:04,899|11065: Abstimmung yes, sending to Next One
+08.11 11:25:05,499|11065: Got Abstimmung
+08.11 11:25:05,499|11065: Got it from someone else
+08.11 11:25:05,500|11065: TimeDiff of 63 big enough
+08.11 11:25:05,500|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:05,506|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:05,507|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:25:05,512|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:25:05,513|11065: Abstimmung yes, sending to Next One
+08.11 11:25:06,843|11065: Got Abstimmung
+08.11 11:25:06,844|11065: Got it from someone else
+08.11 11:25:06,844|11065: TimeDiff of 64 big enough
+08.11 11:25:06,845|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:06,851|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:06,852|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:25:06,858|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:25:06,859|11065: Abstimmung yes, sending to Next One
+08.11 11:25:07,502|11065: Got Abstimmung
+08.11 11:25:07,509|11065: Got it from someone else
+08.11 11:25:07,515|11065: TimeDiff of 65 big enough
+08.11 11:25:07,566|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:07,632|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:07,641|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:25:07,693|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:25:07,699|11065: Abstimmung yes, sending to Next One
+08.11 11:25:07,400|11065: Got Abstimmung
+08.11 11:25:07,400|11065: Got it from someone else
+08.11 11:25:07,401|11065: TimeDiff of 65 big enough
+08.11 11:25:07,402|11065: Trying to get Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:07,407|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:07,408|11065: Got Nameservice, trying to contact it for: 11531
+08.11 11:25:07,420|11065: 11531 found, Name: 11531 Node: t15@lab27.cpt.haw-hamburg.de
+08.11 11:25:07,422|11065: Abstimmung yes, sending to Next One
+08.11 11:25:14,449|11065: Got Nameservice: ns@lab30.cpt.haw-hamburg.de
+08.11 11:25:14,458|11065: Unbinding from Nameservice
+08.11 11:25:14,466|11065: Killed
