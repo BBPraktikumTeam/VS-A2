@@ -4,15 +4,15 @@
 
 %% %%%%%%%%%%%
 % TODO:
-% loop für weiteres empfangen
+% loop fï¿½r weiteres empfangen
 %% %%%%%%%%%%%
 
-%% Mögliche Fehler des Algorithmus
+%% Mï¿½gliche Fehler des Algorithmus
 % Stop nach Start: da nur Prozesse starten die nur Nachbarn mit kleineren Zahlen haben -> Stillstand
-% Zu frühes Ende:  da Probleme bei der Abstimmung entstehen können -> Abbruch zu früh -> falscher ggt
+% Zu frï¿½hes Ende:  da Probleme bei der Abstimmung entstehen kï¿½nnen -> Abbruch zu frï¿½h -> falscher ggt
 
 % Nameservicenode auf lab22
-% Kommunikation über Name, Node
+% Kommunikation ï¿½ber Name, Node
 
 start(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Starternr) ->
     spawn(fun()->init(Vzeit, Tzeit, Startnr, Gruppe, Team, Nameservicenode, Koordinatorname, Starternr) end).
@@ -107,7 +107,6 @@ loop(S= #state{mi = Mi, name = Name, lastworked = Lastworked, tzeit = Tzeit, tim
 					Now = get_timestamp(),
                     TimeDiff = Now - Lastworked,
 					if TimeDiff >= (Tzeit/2) ->
-						%% Hier auch den Timer killen? 
                         log(["TimeDiff of ", TimeDiff, " big enough"],Name),
 						case get_right(S) of
 							{ok, Right} -> 
@@ -200,7 +199,7 @@ get_dienst(S = #state{nameservicenode = Nameservicenode, name = Name}, Dienstnam
             log(["Got Nameservice, trying to contact it for: ", Dienstname], Name),
             Nameservice ! {self(),{lookup,Dienstname}},
             receive
-                Dienst={NameOfService,Node} when is_atom(NameOfService) and is_atom(Node) -> 
+                Dienst={NameOfService,Node} when is_atom(NameOfService) and is_atom(Node) and not(NameOfService == abstimmung) -> 
                     log([Dienstname," found, Name: ", NameOfService, " Node: ",Node], Name),
                     {ok,Dienst};
                 not_found ->
@@ -208,10 +207,6 @@ get_dienst(S = #state{nameservicenode = Nameservicenode, name = Name}, Dienstnam
                     {error,no_koordinator};
                 kill ->
                     terminate(S)
-                
-           %     _Any ->
-            %        log(["Nameservice send CRAP"],Name),
-           %         {error,nameservice_crap}
             end;
         {error, Reason} ->
             log(["ERROR Nameservice: ", Nameservicenode, " not found"], name),
@@ -220,7 +215,7 @@ get_dienst(S = #state{nameservicenode = Nameservicenode, name = Name}, Dienstnam
    
 log(Nachricht,Name) ->
     NewNachricht = lists:concat([werkzeug:timeMilliSecond(),Name,": ",lists:concat(Nachricht),io_lib:nl()]),
-    werkzeug:logging_without_io(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
+    werkzeug:logging(lists:concat(["GGTP_",Name,"@",net_adm:localhost(),".log"]), NewNachricht).
     
 terminate(S = #state{name = Name}) -> 
 %% unbind from nameservice
@@ -236,15 +231,4 @@ terminate(S = #state{name = Name}) ->
        
 start_abstimmung(GGT, Tzeit) ->
     timer:sleep(Tzeit* 1000),
- %   case get_dienst(S, Name) of
- %       {ok, Self} ->
-            GGT ! start_abstimmung.
- %       {error, Reason} ->
-%            log(["Abstimmung Error: ", Reason], Name),
-%            terminate(S)
-%    end.
-    
-        
-    
- 
-    
+    GGT ! start_abstimmung.
